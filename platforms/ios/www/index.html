@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    
+    <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+    
+    <!-- ionic/angularjs js -->
+    
+  
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- ionic native integration must be after ionic.bundle.js -->
+    <script src="lib/node_modules/ionic-native/dist/ionic.native.min.js"></script>
+
+    <!--Added for social share-->
+    <script src="js/ng-cordova.min.js"></script>
+
+    <!--Added for social share html canvas-->
+    <script src="js/html2canvas.js"></script>
+    
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <style type="text/css">
+      .platform-ios .manual-ios-statusbar-padding{
+        padding-top:20px;
+      }
+      .manual-remove-top-padding{
+        padding-top:0px; 
+      }
+      .manual-remove-top-padding .scroll{
+        padding-top:0px !important;
+      }
+      ion-list.manual-list-fullwidth div.list, .list.card.manual-card-fullwidth {
+        margin-left:-10px;
+        margin-right:-10px;
+      }
+      ion-list.manual-list-fullwidth div.list > .item, .list.card.manual-card-fullwidth > .item {
+        border-radius:0px;
+        border-left:0px;
+        border-right: 0px;
+      }
+      .show-list-numbers-and-dots ul{
+        list-style-type: disc;
+        padding-left:40px;
+      }
+      .show-list-numbers-and-dots ol{
+        list-style-type: decimal;
+        padding-left:40px;
+      }
+      .item-img {width: 80% !important;}
+    </style>
+
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/routes.js"></script>
+    
+    <script src="js/directives.js"></script>
+    <script src="js/services.js"></script>
+  
+
+    <!--<script type="text/javascript" src="js/SocialSharing.js"></script>-->
+
+    <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
+    <script>
+      function sharePhoto() {
+       var imageLink;
+              console.log('Calling from CapturePhoto');
+              navigator.screenshot.save(function(error,res){
+              if(error){
+              console.error(error);
+              }else{
+              console.log('ok',res.filePath);
+              
+          
+              //should be path/to/myScreenshot.jpg
+              //For android
+              imageLink = res.filePath;
+              window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
+             //For iOS
+             let url = document.URL;
+             let link = url.split('#/')
+             window.plugins.socialsharing.share(null, null, imageLink, "https://medfinder.app.link/b6I6Zz06S0/?$custom_data="+link[1]);
+       }
+       },'jpg',50,'myScreenShot');
+      }
+  </script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P5S33XQ');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <script src="js/ng-special-offer.js"></script>
+    <script src="js/ngStorage.min.js"></script>
+  </head>
+  <body ng-app="app" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5S33XQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+   
+    <ion-pane ng-controller="ExampleController">
+  <div id="mainContainer">
+  <div>
+    <ion-nav-bar class="bar-calm">
+      <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view>
+
+
+
+   
+ 
+    </ion-nav-view>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<ion-content ng-controller="ExampleController">
+      <button class="button" ng-click="shareAnywhere()">Share Anywhere</button>
+    </ion-content>-->
+  </div>
+</div>
+  </body>
+</html>

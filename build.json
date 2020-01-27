@@ -1,0 +1,10 @@
+{
+  "ios": {
+    "debug": {
+      "developmentTeam": "GMEP384LBP"
+    },
+    "release": {
+      "developmentTeam": "GMEP384LBP"
+    }
+  }
+}

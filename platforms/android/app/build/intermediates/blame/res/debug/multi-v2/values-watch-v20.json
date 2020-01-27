@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Work/Work/Upwork/Matthew/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/devstar/.gradle/caches/transforms-2/files-2.1/66f12a7200af14e0f85c231d9d9cbd07/appcompat-v7-27.1.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

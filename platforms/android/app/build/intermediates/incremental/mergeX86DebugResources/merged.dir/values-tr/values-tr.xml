@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="accessibility_date_picker_month">"Ay"</string>
+    <string name="accessibility_date_picker_week">"Hafta"</string>
+    <string name="accessibility_date_picker_year">"Yıl"</string>
+    <string name="accessibility_datetime_picker_date">"Tarih"</string>
+    <string name="accessibility_datetime_picker_time">"Zaman"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Saat"</string>
+    <string name="accessibility_time_picker_milli">"Milisaniye"</string>
+    <string name="accessibility_time_picker_minute">"Dakika"</string>
+    <string name="accessibility_time_picker_second">"Saniye"</string>
+    <string name="actionbar_share">"Paylaş"</string>
+    <string name="actionbar_textselection_title">"Metin seçimi"</string>
+    <string name="actionbar_web_search">"Web arama"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Öneri mevcut"</string>
+    <string name="autofill_popup_content_description">"Otomatik doldur pop-up\'ı gösteriliyor"</string>
+    <string name="color_picker_button_black">"Siyah"</string>
+    <string name="color_picker_button_blue">"Mavi"</string>
+    <string name="color_picker_button_cancel">"İptal"</string>
+    <string name="color_picker_button_cyan">"Camgöbeği"</string>
+    <string name="color_picker_button_green">"Yeşil"</string>
+    <string name="color_picker_button_magenta">"Macenta"</string>
+    <string name="color_picker_button_more">"Daha fazla"</string>
+    <string name="color_picker_button_red">"Kırmızı"</string>
+    <string name="color_picker_button_set">"Ayarla"</string>
+    <string name="color_picker_button_white">"Beyaz"</string>
+    <string name="color_picker_button_yellow">"Sarı"</string>
+    <string name="color_picker_dialog_title">"Renk seçin"</string>
+    <string name="color_picker_hue">"Ton"</string>
+    <string name="color_picker_saturation">"Doygunluk"</string>
+    <string name="color_picker_value">"Değer"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> adresine git ve yukarıda gösterilen kodu gir.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Görüntü indirilirken beklenmedik bir hata oluştu.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView girişi için İNTERNET izni gerekiyor</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest Hatası</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Beğendin</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Beğen</string>
+    <string gender="unknown" name="com_facebook_loading">Yükleniyor...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">İptal</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Giriş yap</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook ile Devam Et</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook ile Giriş Yap</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Çıkış Yap</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Çıkış Yap</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">%1$s olarak giriş yapıldı</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook ile giriş yapıldı</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Gönder</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Paylaş</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Hesabını bağlamak için, mobil cihazında Facebook uygulamasını aç ve bildirimleri kontrol et.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- VEYA -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Siz değil misiniz?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s olarak devam et</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Girişi Onayla</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Kontrol sende - uygulamalarla paylaşmak istediğin bilgileri seç.</string>
+    <string name="copy_to_clipboard_failure_message">"Panoya kopyalanamadı"</string>
+    <string name="date_picker_dialog_clear">"Temizle"</string>
+    <string name="date_picker_dialog_other_button_label">"Diğer"</string>
+    <string name="date_picker_dialog_set">"Ayarla"</string>
+    <string name="date_picker_dialog_title">"Tarihi ayarlayın"</string>
+    <string name="date_time_picker_dialog_title">"Tarihi ve saati ayarlayın"</string>
+    <string name="low_memory_error">"Bellek yetersiz olduğundan önceki işlem tamamlanamadı"</string>
+    <string name="media_player_error_button">"Tamam"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Bu video maalesef bu cihaza akışla gönderilmek için uygun değil."</string>
+    <string name="media_player_error_text_unknown">"Maalesef bu video oynatılamıyor."</string>
+    <string name="media_player_error_title">"Video oynatılamıyor"</string>
+    <string name="media_player_loading_video">"Video yükleniyor"</string>
+    <string name="month_picker_dialog_title">"Ayı ayarlayın"</string>
+    <string name="opening_file_error">"Seçilen dosya açılamadı"</string>
+    <string name="password_generation_popup_content_description">"Şifre oluşturma pop-up\'ı gösteriliyor"</string>
+    <string name="profiler_error_toast">"Profil düzenleyici başlatılamadı"</string>
+    <string name="profiler_no_storage_toast">"Harici depolama birimi hazır olmadığından profil düzenleyici başlatılamıyor"</string>
+    <string name="profiler_started_toast">"Profil düzenleyici başlatıldı"</string>
+    <string name="profiler_stopped_toast">"Profil düzenleyici tamamlandı. Sonuçlar %1$s dosyasındadır."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"ÖÖ"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"ÖS"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Saati ayarlayın"</string>
+    <string name="updating_chrome">"Chrome güncelleniyor..."</string>
+    <string name="week_picker_dialog_title">"Haftayı ayarlayın"</string>
+</resources>

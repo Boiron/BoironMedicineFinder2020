@@ -1,0 +1,331 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boironusa.medfinder"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="1"
+6    android:versionName="0.0.1" >
+7
+8    <uses-sdk
+8-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:62:3-71
+9        android:minSdkVersion="19"
+9-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:62:13-39
+10        android:targetSdkVersion="27" />
+10-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:62:40-69
+11
+12    <supports-screens
+12-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:3-188
+13        android:anyDensity="true"
+13-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:21-46
+14        android:largeScreens="true"
+14-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:47-74
+15        android:normalScreens="true"
+15-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:75-103
+16        android:resizeable="true"
+16-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:104-129
+17        android:smallScreens="true"
+17-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:130-157
+18        android:xlargeScreens="true" />
+18-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:3:158-186
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:4:3-64
+20-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:4:20-62
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:5:3-78
+21-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:5:20-76
+22
+23    <application
+23-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:6:3-61:17
+24        android:debuggable="true"
+25        android:hardwareAccelerated="true"
+25-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:6:16-50
+26        android:icon="@mipmap/icon"
+26-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:6:51-78
+27        android:label="@string/app_name"
+27-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:6:79-111
+28        android:supportsRtl="true" >
+28-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:6:112-138
+29        <activity
+29-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:5-47:16
+30            android:name="com.boironusa.medfinder.MainActivity"
+30-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:163-190
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+31-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:15-92
+32            android:label="@string/activity_name"
+32-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:93-130
+33            android:launchMode="singleTask"
+33-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:131-162
+34            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+34-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:191-253
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:7:254-296
+36            <intent-filter android:label="@string/launcher_name" >
+36-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:8:7-11:23
+36-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:8:22-59
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:9:9-60
+37-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:9:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:10:9-68
+39-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:10:19-66
+40            </intent-filter>
+41            <intent-filter>
+41-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:12:7-17:23
+42                <action android:name="android.intent.action.VIEW" />
+42-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:9-60
+42-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:17-58
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:9-67
+44-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:19-65
+45                <category android:name="android.intent.category.BROWSABLE" />
+45-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:9-69
+45-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:19-67
+46
+47                <data android:scheme="medfinder" />
+47-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+47-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+48            </intent-filter>
+49            <intent-filter>
+49-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:18:7-23:23
+50                <action android:name="android.intent.action.VIEW" />
+50-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:9-60
+50-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:17-58
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:9-67
+52-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:19-65
+53                <category android:name="android.intent.category.BROWSABLE" />
+53-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:9-69
+53-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:19-67
+54
+55                <data
+55-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+56                    android:host=" "
+56-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+57                    android:pathPrefix="/"
+57-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+58                    android:scheme=" " />
+58-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+59            </intent-filter>
+60            <intent-filter android:autoVerify="true" >
+60-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:24:7-33:23
+60-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:24:22-47
+61                <action android:name="android.intent.action.VIEW" />
+61-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:9-60
+61-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:17-58
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:9-67
+63-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:19-65
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:9-69
+64-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:19-67
+65
+66                <data
+66-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+67                    android:host="boironusa.com/mf-custom/2019webdeeplink/www/"
+67-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+68                    android:pathPrefix="/"
+68-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+69                    android:scheme="https" />
+69-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+70                <data
+70-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+71                    android:host=" "
+71-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+72                    android:pathPrefix="/"
+72-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+73                    android:scheme=" " />
+73-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+74                <data
+74-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+75                    android:host=" "
+75-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+76                    android:pathPrefix="/"
+76-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+77                    android:scheme=" " />
+77-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+78                <data
+78-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+79                    android:host=" "
+79-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+80                    android:pathPrefix="/"
+80-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+81                    android:scheme=" " />
+81-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+82                <data
+82-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+83                    android:host=" "
+83-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+84                    android:pathPrefix="/"
+84-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:32-54
+85                    android:scheme=" " />
+85-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+86            </intent-filter>
+87            <intent-filter android:name="io.branch.sdk.UriScheme" >
+87-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:12:7-17:23
+87-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:34:22-60
+88                <action android:name="android.intent.action.VIEW" />
+88-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:9-60
+88-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:17-58
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:9-67
+90-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:19-65
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:9-69
+91-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:19-67
+92
+93                <data android:scheme="medfinder" />
+93-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+93-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+94            </intent-filter>
+95            <intent-filter
+95-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:40:7-46:23
+96                android:name="io.branch.sdk.AppLink"
+96-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:40:22-58
+97                android:autoVerify="true" >
+97-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:40:59-84
+98                <action android:name="android.intent.action.VIEW" />
+98-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:9-60
+98-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:13:17-58
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:9-67
+100-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:14:19-65
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:9-69
+101-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:15:19-67
+102
+103                <data
+103-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+104                    android:host="medfinder-alternate.app.link"
+104-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+105                    android:scheme="https" />
+105-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+106                <data
+106-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:9-43
+107                    android:host="medfinder-alternate-alternate.app.link"
+107-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:22:15-31
+108                    android:scheme="https" />
+108-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:48:5-181
+112            android:name="com.facebook.FacebookActivity"
+112-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:48:135-179
+113            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+113-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:48:15-98
+114            android:label="@string/fb_app_name"
+114-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:48:99-134
+115            android:theme="@style/com_facebook_activity_theme" />
+115-->[com.facebook.android:facebook-common:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/9faec82f3d351ba643ef94c5510cda9d/facebook-common-4.38.1/AndroidManifest.xml:32:13-63
+116
+117        <meta-data
+117-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:49:5-97
+118            android:name="com.facebook.sdk.ApplicationId"
+118-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:49:16-61
+119            android:value="@string/fb_app_id" />
+119-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:49:62-95
+120        <meta-data
+120-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:50:5-101
+121            android:name="com.facebook.sdk.ApplicationName"
+121-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:50:16-63
+122            android:value="@string/fb_app_name" />
+122-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:50:64-99
+123        <meta-data
+123-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:51:5-114
+124            android:name="io.branch.sdk.BranchKey"
+124-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:51:16-54
+125            android:value="key_live_phKk43J0mdv0VhOoRJtuMlabFzjuDcnN" />
+125-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:51:55-112
+126        <meta-data
+126-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:52:5-77
+127            android:name="io.branch.sdk.TestMode"
+127-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:52:16-53
+128            android:value="false" />
+128-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:52:54-75
+129
+130        <provider
+131            android:name="nl.xservices.plugins.FileProvider"
+131-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:53:131-179
+132            android:authorities="com.boironusa.medfinder.sharing.provider"
+132-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:53:15-70
+133            android:exported="false"
+133-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:53:71-95
+134            android:grantUriPermissions="true" >
+134-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:53:96-130
+135            <meta-data
+135-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:54:7-108
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:54:18-68
+137                android:resource="@xml/sharing_paths" />
+137-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:54:69-106
+138        </provider>
+139
+140        <receiver
+140-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:56:5-60:16
+141            android:name="io.branch.referral.InstallListener"
+141-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:56:15-64
+142            android:exported="true" >
+142-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:56:65-88
+143            <intent-filter>
+143-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:57:7-59:23
+144                <action android:name="com.android.vending.INSTALL_REFERRER" />
+144-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:58:9-70
+144-->/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/src/main/AndroidManifest.xml:58:17-68
+145            </intent-filter>
+146        </receiver>
+147
+148        <activity android:name="com.facebook.CustomTabMainActivity" />
+148-->[com.facebook.android:facebook-common:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/9faec82f3d351ba643ef94c5510cda9d/facebook-common-4.38.1/AndroidManifest.xml:33:9-71
+148-->[com.facebook.android:facebook-common:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/9faec82f3d351ba643ef94c5510cda9d/facebook-common-4.38.1/AndroidManifest.xml:33:19-68
+149        <activity android:name="com.facebook.CustomTabActivity" />
+149-->[com.facebook.android:facebook-common:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/9faec82f3d351ba643ef94c5510cda9d/facebook-common-4.38.1/AndroidManifest.xml:34:9-67
+149-->[com.facebook.android:facebook-common:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/9faec82f3d351ba643ef94c5510cda9d/facebook-common-4.38.1/AndroidManifest.xml:34:19-64
+150
+151        <provider
+151-->[com.facebook.android:facebook-marketing:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/5bdf209706cce6781f08c3b81233ddb5/facebook-marketing-4.38.1/AndroidManifest.xml:29:9-32:40
+152            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+152-->[com.facebook.android:facebook-marketing:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/5bdf209706cce6781f08c3b81233ddb5/facebook-marketing-4.38.1/AndroidManifest.xml:30:13-81
+153            android:authorities="com.boironusa.medfinder.MarketingInitProvider"
+153-->[com.facebook.android:facebook-marketing:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/5bdf209706cce6781f08c3b81233ddb5/facebook-marketing-4.38.1/AndroidManifest.xml:31:13-73
+154            android:exported="false" />
+154-->[com.facebook.android:facebook-marketing:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/5bdf209706cce6781f08c3b81233ddb5/facebook-marketing-4.38.1/AndroidManifest.xml:32:13-37
+155        <!--
+156         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+157         with the application context. This config is merged in with the host app's manifest,
+158         but there can only be one provider with the same authority activated at any given
+159         point; so if the end user has two or more different apps that use Facebook SDK, only the
+160         first one will be able to use the provider. To work around this problem, we use the
+161         following placeholder in the authority to identify each host application as if it was
+162         a completely different provider.
+163        -->
+164        <provider
+164-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:39:9-42:40
+165            android:name="com.facebook.internal.FacebookInitProvider"
+165-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:40:13-70
+166            android:authorities="com.boironusa.medfinder.FacebookInitProvider"
+166-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:41:13-72
+167            android:exported="false" />
+167-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:42:13-37
+168
+169        <receiver
+169-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:44:9-50:20
+170            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+170-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:45:13-86
+171            android:exported="false" >
+171-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:46:13-37
+172            <intent-filter>
+172-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:47:13-49:29
+173                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+173-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:48:17-95
+173-->[com.facebook.android:facebook-core:4.38.1] /Users/matthewmcgeehan/.gradle/caches/transforms-2/files-2.1/7772f24ca158af7999c017ab544ca8db/facebook-core-4.38.1/AndroidManifest.xml:48:25-92
+174            </intent-filter>
+175        </receiver>
+176    </application>
+177
+178</manifest>

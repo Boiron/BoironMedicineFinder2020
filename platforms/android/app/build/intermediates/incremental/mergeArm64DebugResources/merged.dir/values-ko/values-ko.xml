@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="accessibility_date_picker_month">"월"</string>
+    <string name="accessibility_date_picker_week">"주"</string>
+    <string name="accessibility_date_picker_year">"연도"</string>
+    <string name="accessibility_datetime_picker_date">"날짜"</string>
+    <string name="accessibility_datetime_picker_time">"시간"</string>
+    <string name="accessibility_time_picker_ampm">"오전/오후"</string>
+    <string name="accessibility_time_picker_hour">"시"</string>
+    <string name="accessibility_time_picker_milli">"밀리초"</string>
+    <string name="accessibility_time_picker_minute">"분"</string>
+    <string name="accessibility_time_picker_second">"초"</string>
+    <string name="actionbar_share">"공유"</string>
+    <string name="actionbar_textselection_title">"텍스트 선택"</string>
+    <string name="actionbar_web_search">"웹 검색"</string>
+    <string name="autofill_keyboard_accessory_content_description">"제안 사용 가능"</string>
+    <string name="autofill_popup_content_description">"자동완성 팝업 표시"</string>
+    <string name="color_picker_button_black">"검정색"</string>
+    <string name="color_picker_button_blue">"파란색"</string>
+    <string name="color_picker_button_cancel">"취소"</string>
+    <string name="color_picker_button_cyan">"청록색"</string>
+    <string name="color_picker_button_green">"녹색"</string>
+    <string name="color_picker_button_magenta">"자홍색"</string>
+    <string name="color_picker_button_more">"더보기"</string>
+    <string name="color_picker_button_red">"빨간색"</string>
+    <string name="color_picker_button_set">"설정"</string>
+    <string name="color_picker_button_white">"흰색"</string>
+    <string name="color_picker_button_yellow">"노란색"</string>
+    <string name="color_picker_dialog_title">"색상 선택"</string>
+    <string name="color_picker_hue">"색조"</string>
+    <string name="color_picker_saturation">"채도"</string>
+    <string name="color_picker_value">"값"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>에 방문하여 위 코드를 입력하세요.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">이미지를 다운로드하는 중 예기치 않은 오류가 발생했습니다.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 로그인에 인터넷 권한이 필요합니다</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 오류</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">좋아요</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">좋아요</string>
+    <string gender="unknown" name="com_facebook_loading">읽어들이는 중...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">취소</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">로그인</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook으로 계속하기</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook으로 로그인</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">로그인 사용자: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook을 사용하여 로그인함</string>
+    <string gender="unknown" name="com_facebook_send_button_text">보내기</string>
+    <string gender="unknown" name="com_facebook_share_button_text">공유하기</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">계정에 연결하려면 모바일 기기에서 Facebook 앱을 열고 알림을 확인하세요.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 또는 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">회원님이 아닌가요?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s님으로 계속</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">로그인 확인</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">앱과 공유할 정보를 자유롭게 선택할 수 있습니다.</string>
+    <string name="copy_to_clipboard_failure_message">"클립보드로 복사하지 못했습니다."</string>
+    <string name="date_picker_dialog_clear">"삭제"</string>
+    <string name="date_picker_dialog_other_button_label">"기타"</string>
+    <string name="date_picker_dialog_set">"설정"</string>
+    <string name="date_picker_dialog_title">"날짜 설정"</string>
+    <string name="date_time_picker_dialog_title">"날짜 및 시간 설정"</string>
+    <string name="low_memory_error">"메모리가 부족하여 이전 작업을 완료할 수 없습니다."</string>
+    <string name="media_player_error_button">"확인"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"죄송합니다. 이 동영상은 이 기기로 스트리밍할 수 없습니다."</string>
+    <string name="media_player_error_text_unknown">"동영상을 재생할 수 없습니다."</string>
+    <string name="media_player_error_title">"동영상 재생 안됨"</string>
+    <string name="media_player_loading_video">"동영상 로드 중"</string>
+    <string name="month_picker_dialog_title">"월 설정"</string>
+    <string name="opening_file_error">"선택한 파일을 열지 못했습니다."</string>
+    <string name="password_generation_popup_content_description">"비밀번호 생성 팝업 표시"</string>
+    <string name="profiler_error_toast">"프로파일러를 시작하지 못했습니다."</string>
+    <string name="profiler_no_storage_toast">"외부 저장소가 준비되지 않아 프로파일러를 시작할 수 없습니다."</string>
+    <string name="profiler_started_toast">"프로파일러가 시작되었습니다."</string>
+    <string name="profiler_stopped_toast">"프로파일러가 완료되었습니다. 결과는 %1$s에 있습니다."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"오전"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"오후"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"시간 설정"</string>
+    <string name="updating_chrome">"Chrome 업데이트 중..."</string>
+    <string name="week_picker_dialog_title">"주 설정"</string>
+</resources>

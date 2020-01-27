@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Escolher uma aplicação"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partilhar com a aplicação <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Reduzir"</string>
+    <string name="accessibility_date_picker_month">"Mês"</string>
+    <string name="accessibility_date_picker_week">"Semana"</string>
+    <string name="accessibility_date_picker_year">"Ano"</string>
+    <string name="accessibility_datetime_picker_date">"Data"</string>
+    <string name="accessibility_datetime_picker_time">"Tempo"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Hora"</string>
+    <string name="accessibility_time_picker_milli">"Milissegundo"</string>
+    <string name="accessibility_time_picker_minute">"Minuto"</string>
+    <string name="accessibility_time_picker_second">"Segundo"</string>
+    <string name="actionbar_share">"Partilhar"</string>
+    <string name="actionbar_textselection_title">"Seleção de texto"</string>
+    <string name="actionbar_web_search">"Pesquisa Web"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Sugestões disponíveis"</string>
+    <string name="autofill_popup_content_description">"A mostrar pop-up de preenchimento automático"</string>
+    <string name="color_picker_button_black">"Preto"</string>
+    <string name="color_picker_button_blue">"Azul"</string>
+    <string name="color_picker_button_cancel">"Cancelar"</string>
+    <string name="color_picker_button_cyan">"Turquesa"</string>
+    <string name="color_picker_button_green">"Verde"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Mais"</string>
+    <string name="color_picker_button_red">"Vermelho"</string>
+    <string name="color_picker_button_set">"Definir"</string>
+    <string name="color_picker_button_white">"Branco"</string>
+    <string name="color_picker_button_yellow">"Amarelo"</string>
+    <string name="color_picker_dialog_title">"Selecionar cor"</string>
+    <string name="color_picker_hue">"Tonalidade"</string>
+    <string name="color_picker_saturation">"Saturação"</string>
+    <string name="color_picker_value">"Valor"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> e insere o código apresentado abaixo.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Ocorreu um erro inesperado ao descarregar uma imagem.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">O início de sessão WebView requer a permissão INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Gostaste</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Gosto</string>
+    <string gender="unknown" name="com_facebook_loading">A carregar...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Iniciar sessão</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Continuar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Iniciar sessão com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Terminar a sessão</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Terminar a sessão</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Com sessão iniciada como %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Com sessão iniciada com o Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Enviar</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Partilhar</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para associares a tua conta, abre a app Facebook no teu dispositivo móvel e consulta as notificações.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- OU -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Não és tu?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Confirmar início de sessão</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Tens o controlo. Escolhe as informações que queres partilhar com as apps.</string>
+    <string name="copy_to_clipboard_failure_message">"Falha ao copiar para a área de transferência"</string>
+    <string name="date_picker_dialog_clear">"Limpar"</string>
+    <string name="date_picker_dialog_other_button_label">"Outros"</string>
+    <string name="date_picker_dialog_set">"Definir"</string>
+    <string name="date_picker_dialog_title">"Definir data"</string>
+    <string name="date_time_picker_dialog_title">"Definir data e hora"</string>
+    <string name="low_memory_error">"Não foi possível concluir a operação anterior devido à baixa memória disponível"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Este vídeo não é válido para transmissão em fluxo contínuo neste dispositivo."</string>
+    <string name="media_player_error_text_unknown">"Não é possível reproduzir este vídeo."</string>
+    <string name="media_player_error_title">"Impossível reproduzir vídeo"</string>
+    <string name="media_player_loading_video">"A carregar vídeo"</string>
+    <string name="month_picker_dialog_title">"Definir mês"</string>
+    <string name="opening_file_error">"Falha ao abrir o fich. selec."</string>
+    <string name="password_generation_popup_content_description">"A mostrar pop-up de geração de palavra-passe"</string>
+    <string name="profiler_error_toast">"Falha ao iniciar o gerador de perfis"</string>
+    <string name="profiler_no_storage_toast">"Não é possível iniciar o gerador de perfis, porque o armazenamento externo não está pronto"</string>
+    <string name="profiler_started_toast">"O gerador de perfis foi iniciado"</string>
+    <string name="profiler_stopped_toast">"O gerador de perfis terminou. Os resultados estão em %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Definir hora"</string>
+    <string name="updating_chrome">"A atualizar o Chrome..."</string>
+    <string name="week_picker_dialog_title">"Definir semana"</string>
+</resources>

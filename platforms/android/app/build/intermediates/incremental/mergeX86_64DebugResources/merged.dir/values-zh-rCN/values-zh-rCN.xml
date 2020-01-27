@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="accessibility_date_picker_month">"月"</string>
+    <string name="accessibility_date_picker_week">"周"</string>
+    <string name="accessibility_date_picker_year">"年"</string>
+    <string name="accessibility_datetime_picker_date">"日期"</string>
+    <string name="accessibility_datetime_picker_time">"时间"</string>
+    <string name="accessibility_time_picker_ampm">"上午/下午"</string>
+    <string name="accessibility_time_picker_hour">"小时"</string>
+    <string name="accessibility_time_picker_milli">"毫秒"</string>
+    <string name="accessibility_time_picker_minute">"分钟"</string>
+    <string name="accessibility_time_picker_second">"秒"</string>
+    <string name="actionbar_share">"分享"</string>
+    <string name="actionbar_textselection_title">"选择文字"</string>
+    <string name="actionbar_web_search">"网页搜索"</string>
+    <string name="autofill_keyboard_accessory_content_description">"有自动填充建议"</string>
+    <string name="autofill_popup_content_description">"目前显示的是自动填充弹出式窗口"</string>
+    <string name="color_picker_button_black">"黑色"</string>
+    <string name="color_picker_button_blue">"蓝色"</string>
+    <string name="color_picker_button_cancel">"取消"</string>
+    <string name="color_picker_button_cyan">"青色"</string>
+    <string name="color_picker_button_green">"绿色"</string>
+    <string name="color_picker_button_magenta">"洋红色"</string>
+    <string name="color_picker_button_more">"更多"</string>
+    <string name="color_picker_button_red">"红色"</string>
+    <string name="color_picker_button_set">"设置"</string>
+    <string name="color_picker_button_white">"白色"</string>
+    <string name="color_picker_button_yellow">"黄色"</string>
+    <string name="color_picker_dialog_title">"选择颜色"</string>
+    <string name="color_picker_hue">"色调"</string>
+    <string name="color_picker_saturation">"饱和度"</string>
+    <string name="color_picker_value">"值"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">请访问&lt;b>facebook.com/device&lt;/b>并输入以上验证码。</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">下载图片时出现意外错误。</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 登录需要访问网络</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 错误</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">赞了</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">赞</string>
+    <string gender="unknown" name="com_facebook_loading">正在加载...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">取消</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">登录</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">前往 Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">使用 Facebook 登录</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">退出</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">退出</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">登录身份：%1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">已通过 Facebook 登录</string>
+    <string gender="unknown" name="com_facebook_send_button_text">发送</string>
+    <string gender="unknown" name="com_facebook_share_button_text">分享</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">要关联帐户，请在移动设备上打开 Facebook 应用并查看通知。</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 或 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">不是你？</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">以%1$s的身份继续</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">确认登录</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">应用分享内容由你掌控。</string>
+    <string name="copy_to_clipboard_failure_message">"未能复制到剪贴板"</string>
+    <string name="date_picker_dialog_clear">"清除"</string>
+    <string name="date_picker_dialog_other_button_label">"其他"</string>
+    <string name="date_picker_dialog_set">"设置"</string>
+    <string name="date_picker_dialog_title">"设置日期"</string>
+    <string name="date_time_picker_dialog_title">"设置日期和时间"</string>
+    <string name="low_memory_error">"内存不足，无法完成上一操作"</string>
+    <string name="media_player_error_button">"确定"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"抱歉，此视频无法流式传输到该设备。"</string>
+    <string name="media_player_error_text_unknown">"抱歉，此视频无法播放。"</string>
+    <string name="media_player_error_title">"无法播放视频"</string>
+    <string name="media_player_loading_video">"加载视频"</string>
+    <string name="month_picker_dialog_title">"设置月份"</string>
+    <string name="opening_file_error">"无法打开所选文件"</string>
+    <string name="password_generation_popup_content_description">"目前显示的是密码生成弹出式窗口"</string>
+    <string name="profiler_error_toast">"无法启动分析器"</string>
+    <string name="profiler_no_storage_toast">"外部存储设备尚未准备就绪，无法启动分析器"</string>
+    <string name="profiler_started_toast">"分析器已启动"</string>
+    <string name="profiler_stopped_toast">"分析器已完成操作。请在 %1$s 中查看分析结果。"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"上午"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"下午"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"设置时间"</string>
+    <string name="updating_chrome">"正在更新 Chrome…"</string>
+    <string name="week_picker_dialog_title">"设置星期"</string>
+</resources>

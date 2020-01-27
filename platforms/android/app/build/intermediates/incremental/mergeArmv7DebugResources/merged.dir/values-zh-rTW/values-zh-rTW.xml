@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="accessibility_date_picker_month">"月"</string>
+    <string name="accessibility_date_picker_week">"週"</string>
+    <string name="accessibility_date_picker_year">"年"</string>
+    <string name="accessibility_datetime_picker_date">"日期"</string>
+    <string name="accessibility_datetime_picker_time">"時間"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"小時"</string>
+    <string name="accessibility_time_picker_milli">"毫秒"</string>
+    <string name="accessibility_time_picker_minute">"分鐘"</string>
+    <string name="accessibility_time_picker_second">"秒"</string>
+    <string name="actionbar_share">"分享"</string>
+    <string name="actionbar_textselection_title">"選取文字"</string>
+    <string name="actionbar_web_search">"網頁搜尋"</string>
+    <string name="autofill_keyboard_accessory_content_description">"有自動填入建議"</string>
+    <string name="autofill_popup_content_description">"目前顯示的是自動填入彈出式視窗"</string>
+    <string name="color_picker_button_black">"黑色"</string>
+    <string name="color_picker_button_blue">"藍色"</string>
+    <string name="color_picker_button_cancel">"取消"</string>
+    <string name="color_picker_button_cyan">"青色"</string>
+    <string name="color_picker_button_green">"綠色"</string>
+    <string name="color_picker_button_magenta">"洋紅色"</string>
+    <string name="color_picker_button_more">"詳細資訊"</string>
+    <string name="color_picker_button_red">"紅色"</string>
+    <string name="color_picker_button_set">"設定"</string>
+    <string name="color_picker_button_white">"白色"</string>
+    <string name="color_picker_button_yellow">"黃色"</string>
+    <string name="color_picker_dialog_title">"選取顏色"</string>
+    <string name="color_picker_hue">"色調"</string>
+    <string name="color_picker_saturation">"飽和度"</string>
+    <string name="color_picker_value">"值"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">前往&lt;b>facebook.com/device&lt;/b&amp;gt，並輸入上方顯示的代碼。</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">下載圖像時無預警發生錯誤。</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 登入需要網路使用權限</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 錯誤</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">已說讚</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">讚</string>
+    <string gender="unknown" name="com_facebook_loading">載入中......</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">取消</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">登入</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">以 Facebook 帳號繼續</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">使用 Facebook 帳號登入</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">登出</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">登出</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">以%1$s身分登入</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">已使用 Facebook 登入</string>
+    <string gender="unknown" name="com_facebook_send_button_text">送出</string>
+    <string gender="unknown" name="com_facebook_share_button_text">分享</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">若要連結帳號，請在行動裝置上開啟 Facebook 應用程式，然後查看通知。</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 或 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">不是你？</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">以%1$s的身分繼續</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">確認登入</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">一切操之在你：自行選擇要分享給應用程式的資訊種類。</string>
+    <string name="copy_to_clipboard_failure_message">"無法複製到剪貼簿"</string>
+    <string name="date_picker_dialog_clear">"清除"</string>
+    <string name="date_picker_dialog_other_button_label">"其他"</string>
+    <string name="date_picker_dialog_set">"設定"</string>
+    <string name="date_picker_dialog_title">"設定日期"</string>
+    <string name="date_time_picker_dialog_title">"設定日期和時間"</string>
+    <string name="low_memory_error">"記憶體不足，無法完成前一項操作"</string>
+    <string name="media_player_error_button">"確定"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"很抱歉，這部影片的格式有誤，無法透過這個裝置串流播放。"</string>
+    <string name="media_player_error_text_unknown">"很抱歉，無法播放這部影片。"</string>
+    <string name="media_player_error_title">"無法播放影片"</string>
+    <string name="media_player_loading_video">"正在載入影片"</string>
+    <string name="month_picker_dialog_title">"設定月份"</string>
+    <string name="opening_file_error">"無法開啟選取的檔案"</string>
+    <string name="password_generation_popup_content_description">"目前顯示的是密碼產生彈出式視窗"</string>
+    <string name="profiler_error_toast">"無法啟動分析器"</string>
+    <string name="profiler_no_storage_toast">"外部儲存空間尚未準備就緒，因此無法啟動分析器"</string>
+    <string name="profiler_started_toast">"分析器已啟動"</string>
+    <string name="profiler_stopped_toast">"分析器已執行完成，請參閱 %1$s 查看分析結果。"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"設定時間"</string>
+    <string name="updating_chrome">"正在更新 Chrome..."</string>
+    <string name="week_picker_dialog_title">"設定週次"</string>
+</resources>

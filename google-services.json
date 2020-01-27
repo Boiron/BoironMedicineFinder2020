@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "675043601581",
+    "firebase_url": "https://boiron-medicine-finder-a310b.firebaseio.com",
+    "project_id": "boiron-medicine-finder-a310b",
+    "storage_bucket": "boiron-medicine-finder-a310b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675043601581:android:f7c4595024c847b8",
+        "android_client_info": {
+          "package_name": "com.boironusa.medfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675043601581-1ngqag21ccse4sc8t1k34uod1mn6toca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQYzMegtjDW5YrAGCgEzH79BKW6K5MmKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

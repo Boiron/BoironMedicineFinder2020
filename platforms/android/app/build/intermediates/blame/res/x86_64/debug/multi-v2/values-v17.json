@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/build/intermediates/incremental/mergeX86_64DebugResources/merged.dir/values-v17/values-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/matthewmcgeehan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/28fd37d77b7ba4d95a3aab5a94dba436/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
+                    },
+                    "to": {
+                        "startLines": "31,34,38,41,44,47,51,55,58,61,64,68,71,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1508,1681,1909,2067,2217,2389,2617,2859,3030,3204,3373,3646,3846,4050",
+                        "endLines": "33,37,40,43,46,50,54,57,60,63,67,70,74,78",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1676,1904,2062,2212,2384,2612,2854,3025,3199,3368,3641,3841,4045,4374"
+                    }
+                },
+                {
+                    "source": "/Users/matthewmcgeehan/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/4c239cbcff311f2035a70d2bd1c2d9fb/res/values-v17/styles.xml",
+                    "from": {
+                        "startLines": "12,15,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "476,606,232",
+                        "endLines": "14,17,11",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "601,720,471"
+                    },
+                    "to": {
+                        "startLines": "79,82,85",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4379,4509,4628",
+                        "endLines": "81,84,88",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "4504,4623,4867"
+                    }
+                },
+                {
+                    "source": "/Users/matthewmcgeehan/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/4c239cbcff311f2035a70d2bd1c2d9fb/res/values-v17/styles_03.xml",
+                    "from": {
+                        "startLines": "33,20,37,17,14,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1346,702,1545,562,442,233",
+                        "endLines": "36,32,39,19,16,11",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "1540,1341,1703,697,557,415"
+                    },
+                    "to": {
+                        "startLines": "2,6,19,22,25,28",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,254,898,1061,1201,1321",
+                        "endLines": "5,18,21,24,27,30",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "249,893,1056,1196,1316,1503"
+                    }
+                }
+            ]
+        }
+    ]
+}

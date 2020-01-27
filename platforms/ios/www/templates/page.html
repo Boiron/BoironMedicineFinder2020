@@ -1,0 +1,59 @@
+<ion-view class="background" title="Page" id="page503">
+  <ion-nav-buttons side="right" class="has-header">
+        <button onclick="sharePhoto();" class="button icon ion-share"></button>
+      </ion-nav-buttons>   </ion-nav-buttons>   <ion-content padding="true" class="has-header">
+    <div class="spacer" style="height: 20px;"></div>
+   
+    <div class="spacer" style="height: 20px;"></div>
+    <div>
+      <script>
+        function logo(img) {
+      if (img.src.indexOf('default')==-1) return; // already changed 
+      var d = new Date();
+      var Month = d.getMonth();
+      var src = "http://i258.photobucket.com/albums/hh266/specless/";
+      if (Month === 1) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } else if (Month === 2) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } else if (Month === 3) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } else if (Month === 4 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 5) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 6 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 7 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 8 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 9 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 10 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 11 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      else if (Month === 12 ) {
+        src += "img/ongn4JmLQH2p96vZbsF0_oscillo.jpg";
+      } 
+      alert(src);
+      img.src=src;
+    }
+      </script>
+
+
+
+
+      <img id="Logo" src="http://shikii.net/blog/wp-content/uploads/2010/10/default.png" alt="KnowledgeBase" width="75%" onload="logo(this)">
+    </div>
+  </ion-content>
+</ion-view>

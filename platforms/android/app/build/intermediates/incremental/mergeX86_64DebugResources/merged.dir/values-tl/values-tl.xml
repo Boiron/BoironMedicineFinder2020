@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Mag-navigate patungo sa home"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Mag-navigate pataas"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Higit pang mga opsyon"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Tapos na"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tingnan lahat"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pumili ng isang app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"I-OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"I-ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Maghanap…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"I-clear ang query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query sa paghahanap"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Maghanap"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Isumite ang query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paghahanap gamit ang boses"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Ibahagi sa/kay"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Ibahagi gamit ang <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"I-collapse"</string>
+    <string name="accessibility_date_picker_month">"Buwan"</string>
+    <string name="accessibility_date_picker_week">"Linggo"</string>
+    <string name="accessibility_date_picker_year">"Taon"</string>
+    <string name="accessibility_datetime_picker_date">"Petsa"</string>
+    <string name="accessibility_datetime_picker_time">"Oras"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Oras"</string>
+    <string name="accessibility_time_picker_milli">"Millisecond"</string>
+    <string name="accessibility_time_picker_minute">"Minuto"</string>
+    <string name="accessibility_time_picker_second">"Segundo"</string>
+    <string name="actionbar_share">"Ibahagi"</string>
+    <string name="actionbar_textselection_title">"Pagpili ng teksto"</string>
+    <string name="actionbar_web_search">"Paghahanap sa web"</string>
+    <string name="autofill_keyboard_accessory_content_description">"May available na mga suhestyon"</string>
+    <string name="autofill_popup_content_description">"Ipinapakita ang popup na autofill"</string>
+    <string name="color_picker_button_black">"Itim"</string>
+    <string name="color_picker_button_blue">"Asul"</string>
+    <string name="color_picker_button_cancel">"Ikansela"</string>
+    <string name="color_picker_button_cyan">"Cyan"</string>
+    <string name="color_picker_button_green">"Berde"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Higit pa"</string>
+    <string name="color_picker_button_red">"Pula"</string>
+    <string name="color_picker_button_set">"Itakda"</string>
+    <string name="color_picker_button_white">"Puti"</string>
+    <string name="color_picker_button_yellow">"Dilaw"</string>
+    <string name="color_picker_dialog_title">"Pumili ng kulay"</string>
+    <string name="color_picker_hue">"Hue"</string>
+    <string name="color_picker_saturation">"Saturation"</string>
+    <string name="color_picker_value">"Value"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Puntahan ang &lt;b>facebook.com/device&lt;/b> at ilagay ang code na ipinapakita sa itaas.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Hindi inaasahang error habang dina-download ang larawan.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">Ang pag-log in sa WebView ay nangangailangan ng pahintulot sa INTERNET</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Nagustuhan</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">I-like</string>
+    <string gender="unknown" name="com_facebook_loading">Naglo-load...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">I-cancel</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Mag-log in</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Magpatuloy gamit ang Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Mag-log in sa Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Mag-log out</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Mag-log out</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Mag-log-in bilang: %1$s.</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Naka-log in gamit ang Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Ipadala</string>
+    <string gender="unknown" name="com_facebook_share_button_text">I-share</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para ikonekta ang iyong account, buksan ang Facebook app sa iyong cellphone at tumingin ng mga notification.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- O -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Hindi ikaw?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Magpatuloy bilang %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">I-confirm ang Pag-log in</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Ikaw ang may kontrol - piliin anong impormasyon ang gusto mong i-share sa mga app.</string>
+    <string name="copy_to_clipboard_failure_message">"Nabigong kopyahin sa clipboard"</string>
+    <string name="date_picker_dialog_clear">"I-clear"</string>
+    <string name="date_picker_dialog_other_button_label">"Iba pa"</string>
+    <string name="date_picker_dialog_set">"Itakda"</string>
+    <string name="date_picker_dialog_title">"Magtakda ng petsa"</string>
+    <string name="date_time_picker_dialog_title">"Itakda ang petsa at oras"</string>
+    <string name="low_memory_error">"Hindi makumpleto ang nakaraang operasyon dahil sa mababang memory"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Paumanhin, di-wasto ang video na ito para sa pag-stream sa device na ito."</string>
+    <string name="media_player_error_text_unknown">"Paumanhin, hindi mape-play ang video na ito."</string>
+    <string name="media_player_error_title">"Hindi ma-play ang video"</string>
+    <string name="media_player_loading_video">"Naglo-load"</string>
+    <string name="month_picker_dialog_title">"Itakda ang buwan"</string>
+    <string name="opening_file_error">"Hindi mabuksan ang napiling file"</string>
+    <string name="password_generation_popup_content_description">"Ipinapakita ang popup para sa pagbuo ng password"</string>
+    <string name="profiler_error_toast">"Nabigong simulan ang profiler"</string>
+    <string name="profiler_no_storage_toast">"Hindi masimulan ang profiler dahil hindi handa ang panlabas na storage"</string>
+    <string name="profiler_started_toast">"Nagsimula na ang profiler"</string>
+    <string name="profiler_stopped_toast">"Tapos na ang profiler. Ang mga resulta ay nasa %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Maghanap"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Itakda ang oras"</string>
+    <string name="updating_chrome">"Ina-update ang Chrome..."</string>
+    <string name="week_picker_dialog_title">"Itakda ang linggo"</string>
+</resources>

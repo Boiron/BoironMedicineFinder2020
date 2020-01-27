@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+    <string>ca-app-pub-3940256099942544/2934735716</string>
+    <key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+    <string>ca-app-pub-3940256099942544/4411468910</string>
+    <key>CLIENT_ID</key>
+    <string>675043601581-g6rihd1nibf6oj8v3t4hgcu432205ivl.apps.googleusercontent.com</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.675043601581-g6rihd1nibf6oj8v3t4hgcu432205ivl</string>
+    <key>API_KEY</key>
+    <string>AIzaSyCjh2ACEKtw3RhOj_HcMglXSSub2Upoemk</string>
+    <key>GCM_SENDER_ID</key>
+    <string>675043601581</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>com.boironusa.medfinder</string>
+    <key>PROJECT_ID</key>
+    <string>boiron-medicine-finder-a310b</string>
+    <key>STORAGE_BUCKET</key>
+    <string>boiron-medicine-finder-a310b.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <true/>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false/>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true/>
+    <key>IS_GCM_ENABLED</key>
+    <true/>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true/>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:675043601581:ios:f7c4595024c847b8</string>
+    <key>DATABASE_URL</key>
+    <string>https://boiron-medicine-finder-a310b.firebaseio.com</string>
+    <key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+    <string>true</string>
+    <key>FIREBASE_PERFORMANCE_COLLECTION_ENABLED</key>
+    <string>true</string>
+    <key>FIREBASE_CRASHLYTICS_COLLECTION_ENABLED</key>
+    <string>true</string>
+  </dict>
+</plist>

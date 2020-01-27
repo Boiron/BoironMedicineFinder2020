@@ -1,0 +1,4 @@
+#Mon Nov 18 11:37:07 EST 2019
+base.0=/Users/matthewmcgeehan/Desktop/Combined Branches2/boironMedFinder-NewSearchButton-ArrayButtonBranch/platforms/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

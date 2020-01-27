@@ -1,0 +1,781 @@
+<head>
+ 
+  <style>
+    #search {
+
+}
+
+#search input[type="text"] {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background: url(/img/search-white.png) no-repeat 10px 9px #fafafa;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 80%;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+   /* text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;*/
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 90%;
+    }
+
+    .padding {
+     padding: 0px; 
+}
+
+a.button:hover{
+  background-color: #0071ce;
+  color: white;
+}
+a.button:active{background-color:#0071ce;}
+a.button {
+  background-color: white;
+  border: 2px solid #0071ce;
+}
+
+#b0 { display: none; }
+
+#b1 { display: none; }
+
+a { display: inline; padding: 0 10px; }
+/*
+a.button{
+  background-color:yellow;
+}
+
+
+
+
+
+a {
+  color: orange;
+}
+
+a.button{
+  color:green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: blue;
+}
+
+*/
+
+  </style>
+
+
+
+
+</head>
+
+
+<ion-view class="background" title="Symptom | Medicine Search" id="page533" style="background-color: white;">
+    <ion-nav-buttons side="right" class="has-header">
+        <button onclick="sharePhoto();" class="button icon ion-share"></button>
+      </ion-nav-buttons>  
+
+  
+  <ion-content padding="true" scroll="true" overflow-scroll="true" class="iframe-wrapperer">
+  
+      <div class="spacer" style="height: 20px;"></div>
+      <div class="spacer" style="height: 20px;"></div>
+
+     
+      <div id="symptoms224" ng-init="medicines = 
+      [
+        {name:'Allergies from cold urticaria', link: '#/page1/tab4/coldurticaria'},
+        {name:'Allergies from eye irritation', link:'#/page1/tab4/page14'},
+        {name:'Allergies from hay fever', link:'#/page1/tab4/page9'},
+        {name:'Allergies from hives', link:'#/page1/tab4/page22'},
+        {name:'Allergies with itchy nose', link:'#/page1/tab4/page13'},
+        {name:'Nasal congestion from allergies', link:'#/page1/tab4/page15'},
+        {name:'Body aches from Cold or Flu', link:'#/page1/tab4/page72'},
+        {name:'Body aches from overexertion', link:'#/page1/tab4/page52'},
+        {name:'Chills from Cold or Flu', link:'#/page1/tab4/page74'},
+        {name:'Cold', link:'#/page1/tab4/page32'},
+        {name:'Chest congestion', link:'#/page1/tab4/page206'},
+        {name:'Dry cough', link:'#/page1/tab4/page77'},
+        {name:'Dry cough from cold air', link:'#/page1/tab4/page78'},
+        {name:'Dry cough worse at night', link:'#/page1/tab4/page79'},
+        {name:'Dry cough worse in bed', link:'#/page1/tab4/page80'},
+        {name:'Dry cough worse when speaking', link:'#/page1/tab4/page81'},
+        {name:'Dry cough worse with motion', link:'#/page1/tab4/page82'},
+        {name:'Dry cough worsened by cold', link:'#/page1/tab4/page83'},
+        {name:'Fitful cough with hypersalivation', link:'#/page1/tab4/page85'},
+        {name:'Fitful cough with nausea', link:'#/page1/tab4/page86'},
+        {name:'Hoarseness from voice exertion', link:'#/page1/tab4/page88'},
+        {name:'Hoarseness when speaking', link:'/#/page1/tab4/page89'},
+        {name:'Hoarseness with bitonal voice', link:'#/page1/tab4/page90'},
+        {name:'Hoarseness with croupy cough', link: '#/page1/tab4/page91'},
+        {name:'Hoarseness worse with humidity', link:'#/page1/tab4/page92'},
+        {name:'Loss of voice', link:'#/page1/tab4/page207'},
+        {name:'Snoring from overindulgence', link:'#/page1/tab4/page209'},
+        {name:'Snoring from postnasal drip', link:'#/page1/tab4/page210'},
+        {name:'Snoring - other', link:'#/page1/tab4/page211'},
+        {name:'Sore throat - feeling of splinter in throat', link:'#/page1/tab4/page126'},
+        {name:'Sore throat - itching pain improved by cold liquids', link:'#/page1/tab4/page127'},
+        {name:'Sore throat - with bad taste in the mouth', link:'#/page1/tab4/page128'},
+        {name:'Sore throat - with croupy cough', link:'#/page1/tab4/page129'},
+        {name:'Sore throat - with excessive salivation', link:'#/page1/tab4/page130'},
+        {name:'Sore throat - with pain radiating to the ears', link:'#/page1/tab4/page131'},
+        {name:'Sore throat - with pain when swallowing', link:'#/page1/tab4/page132'},
+        {name:'Sore throat - worse at night', link:'#/page1/tab4/page133'},
+        {name:'Sore throat - other', link:'#/page1/tab4/page134'},
+        {name:'Wet cough - difficult to expectorate', link:'#/page1/tab4/page517'},
+        {name:'Wet cough - thick phlegm', link:'#/page1/tab4/page518'},
+        {name:'Wet cough - with bronchial irritation', link:'#/page1/tab4/page519'},
+        {name:'Wet cough - worse when in bed', link:'#/page1/tab4/page520'},
+        {name:'Wet cough - worse when lying down', link:'#/page1/tab4/page521'},
+        {name:'Cough with chest congestion', link:'#/page1/tab4/page206'},
+        {name:'Crusty nostrils with thick, greenish discharge', link:'/#/page1/tab4/page94'},
+        {name:'Crusty nostrils with watery discharge', link:'/#/page1/tab4/page95'},
+        {name:'Ear congestion', link:'/#/page1/tab4/page96'},
+        {name:'Earache from cold weather', link:'/#/page1/tab4/page35'},
+        {name:'Earache associated with teething', link:'/#/page1/tab4/page36'},
+        {name:'Earache with moderate fever', link:'/#/page1/tab4/page37'},
+        {name:'Fever with dry and hot skin', link:'/#/page1/tab4/page101'},
+        {name:'Fever improved by staying immobile', link:'/#/page1/tab4/page102'},
+        {name:'Fever with exhaustion', link:'/#/page1/tab4/page103'},
+        {name:'Fever with hypersensitivity to light and noise', link:'/#/page1/tab4/page104'},
+        {name:'Fever with profuse sweating', link:'/#/page1/tab4/page105'},
+        {name:'Fever with restlessness', link:'/#/page1/tab4/page106'},
+        {name:'Flu symptoms', link:'/#/page1/tab4/page107'},
+        {name:'Moderate or low fever', link:'/#/page1/tab4/page109'},
+        {name:'Postnasal drip', link:'/#/page1/tab4/page110'},
+        {name:'Runny nose alternating with dryness', link:'/#/page1/tab4/page16'},
+        {name:'Runny nose with burning', link:'/#/page1/tab4/page17'},
+        {name:'Sinus congestion', link:'/#/page1/tab4/page23'},
+        {name:'Sinus pain with pain at base of nose', link:'/#/page1/tab4/page122'},
+        {name:'Sinus pain with pain in upper jaw', link:'/#/page1/tab4/page123'},
+        {name:'Sinus pain with thick, greenish discharge', link:'/#/page1/tab4/page124'},
+        {name:'Sinus pain - other', link:'/#/page1/tab4/page125'},
+        {name:'Sneezing', link:'/#/page1/tab4/page25'},
+        {name:'Stuffy nose with clogged ears', link:'/#/page1/tab4/page136'},
+        {name:'Stuffy nose with thick, greenish discharge', link:'/#/page1/tab4/page137'},
+        {name:'Stuffy nose triggered by dampness and cold', link:'/#/page1/tab4/page138'},
+        {name:'Stuffy nose - other', link:'/#/page1/tab4/page139'},
+        {name:'Baby colic', link:'/#/page1/tab4/page29'},
+        {name:'Canker sore clearly delimited', link:'/#/page1/tab4/page142'},
+        {name:'Canker sore deep', link:'/#/page1/tab4/page143'},
+        {name:'Canker sore in children', link:'/#/page1/tab4/page144'},
+        {name:'Canker sore on the cheeks', link:'/#/page1/tab4/page145'},
+        {name:'Canker sore sensitive to heat or cold', link:'/#/page1/tab4/page147'},
+        {name:'Canker sore with bad taste in the mouth', link:'/#/page1/tab4/page146'},
+        {name:'Cold sores crust stage', link:'/#/page1/tab4/page149'},
+        {name:'Cold sores onset', link:'/#/page1/tab4/page150'},
+        {name:'Cold sores small blisters', link:'/#/page1/tab4/page151'},
+        {name:'Constipation while traveling', link:'/#/page1/tab4/page154'},
+        {name:'Constipation with discolored stools', link:'/#/page1/tab4/page155'},
+        {name:'Constipation with great effort', link:'/#/page1/tab4/page156'},
+        {name:'Constipation with very dry stools', link:'/#/page1/tab4/page159'},
+        {name:'Constipation without urges, with large stools', link:'/#/page1/tab4/page160'},
+        {name:'Constipation with hemorrhoids', link:'/#/page1/tab4/page158'},
+        {name:'Diarrhea after eating cabbage', link:'/#/page1/tab4/page162'},
+        {name:'Diarrhea early in the morning', link:'/#/page1/tab4/page163'},
+        {name:'Diarrhea from food poisoning', link:'/#/page1/tab4/page164'},
+        {name:'Diarrhea painless', link:'/#/page1/tab4/page165'},
+        {name:'Diarrhea - traveler diarrhea', link:'/#/page1/tab4/page166'},
+        {name:'Diarrhea with cold sweats', link:'/#/page1/tab4/page167'},
+        {name:'Diarrhea with gas and bloating', link:'/#/page1/tab4/page168'},
+        {name:'Diarrhea with painful cramps', link:'/#/page1/tab4/page169'},
+        {name:'Diarrhea with rumbling', link:'/#/page1/tab4/page170'},
+        {name:'Digestive cramps', link:'/#/page1/tab4/page172'},
+        {name:'Food intolerance to beer', link:'/#/page1/tab4/page173'},
+      
+        {name:'Food intolerance to cabbage | sauerkraut', link:'/#/page1/tab4/page174'},
+        {name:'Food intolerance to cured meat', link:'/#/page1/tab4/page175'},
+        {name:'Food intolerance to fatty food', link:'/#/page1/tab4/page176'},
+        {name:'Food intolerance to garlic', link:'/#/page1/tab4/page177'},
+        {name:'Food intolerance to ice cream', link:'/#/page1/tab4/page178'},
+        {name:'Food intolerance to milk', link:'/#/page1/tab4/page179'},
+        {name:'Food intolerance to onions', link:'/#/page1/tab4/page180'},
+        {name:'Food intolerance to spices', link:'/#/page1/tab4/page181'},
+        {name:'Food intolerance to wine', link:'/#/page1/tab4/page182'},
+        {name:'Gas with belching', link:'/#/page1/tab4/page183'},
+        {name:'Gas with flatulence', link:'/#/page1/tab4/page184'},
+        {name:'Gas - other', link:'/#/page1/tab4/page185'},
+        {name:'Hangover', link:'/#/page1/tab4/page186'},
+        {name:'Heartburn with gas and bloating', link:'/#/page1/tab4/page188'},
+        {name:'Heartburn with intense burning', link:'/#/page1/tab4/page189'},
+        {name:'Heartburn - other', link:'/#/page1/tab4/page190'},
+        {name:'Hemorrhoids - bleeding easily', link:'/#/page1/tab4/page65'},
+        {name:'Hemorrhoids - burning with fissures', link:'/#/page1/tab4/page67'},
+        {name:'Hemorrhoids - itching', link:'/#/page1/tab4/page68'},
+        {name:'Hemorrhoids - very little or no bleeding', link:'/#/page1/tab4/page69'},
+        {name:'Hemorrhoids - other', link:'/#/page1/tab4/page70'},
+        {name:'Hiccups after a large meal', link:'/#/page1/tab4/page192'},
+        {name:'Hiccups improved by drinking water', link:'/#/page1/tab4/page193'},
+        {name:'Hiccups with pain', link:'/#/page1/tab4/page194'},
+        {name:'Hiccups triggered by stress', link:'/#/page1/tab4/page195'},
+        {name:'Indigestion improved by warm applications to the abdomen', link:'/#/page1/tab4/page197'},
+        {name:'Indigestion with white-covered tongue', link:'/#/page1/tab4/page198'},
+        {name:'Indigestion with pain in the gallbladder area', link:'/#/page1/tab4/page199'},
+        {name:'Indigestion with pain under the right shoulder', link:'/#/page1/tab4/page200'},
+        {name:'Jet lag with drowsiness', link:'/#/page1/tab4/page202'},
+        {name:'Jet lag with muscle pain', link:'/#/page1/tab4/page203'},
+        {name:'Jet lag with sleep pattern disturbances', link:'/#/page1/tab4/page204'},
+        {name:'Jet lag - other', link:'/#/page1/tab4/page201'},
+        {name:'Nausea from food poisoning', link:'/#/page1/tab4/page214'},
+        {name:'Nausea from ice cream', link:'/#/page1/tab4/page215'},
+        {name:'Nausea from overindulgence', link:'/#/page1/tab4/page209'},
+        {name:'Nausea from sweets', link:'/#/page1/tab4/page216'},
+        {name:'Nausea from tobacco smoke', link:'/#/page1/tab4/page217'},
+        {name:'Nausea from hypersalivation', link:'/#/page1/tab4/page218'},
+        {name:'Nausea improved by eating', link:'/#/page1/tab4/page219'},
+        {name:'Nausea improved by fresh air', link:'/#/page1/tab4/page220'},
+        {name:'Nausea with weakness', link:'/#/page1/tab4/page221'},
+        {name:'Nausea with clean tongue', link:'/#/page1/tab4/page222'},
+        {name:'Nausea with painful cramps', link:'/#/page1/tab4/page223'},
+        {name:'Overindulgence from sweets | cured meat', link:'/#/page1/tab4/page175'},
+        {name:'Overindulgence from fatty food | ice cream', link:'/#/page1/tab4/page178'},
+        {name:'Overindulgence - other', link:'/#/page1/tab4/page225'},
+        {name:'Sour stomach', link:'/#/page1/tab4/page226'},
+        {name:'Stomach flu', link:'/#/page1/tab4/page226'},
+        {name:'Teething', link:'/#/page1/tab4/page57'},
+        {name:'Toothaches', link:'/#/page1/tab4/page228'},
+        {name:'Black eye', link:'/#/page1/tab4/page233'},
+        {name:'Chalazion (small bump on the eyelid)', link:'/#/page1/tab4/page244'},
+        {name:'Dry eyes ', link:'/#/page1/tab4/page245'},
+        {name:'Eye irritation - from allergies', link:'/#/page1/tab4/page236'},
+        {name:'Eye irritation - not from allergies', link:'/#/page1/tab4/page237'},
+        {name:'Strained eyes from artificial lights', link:'/#/page1/tab4/page238'},
+        {name:'Strained eyes from computer use', link:'/#/page1/tab4/page239'},
+        {name:'Strained eyes overexerted visual effort', link:'/#/page1/tab4/page240'},
+        {name:'Strained eyes from poor lighting', link:'/#/page1/tab4/page241'},
+        {name:'Stye on upper eyelid', link:'/#/page1/tab4/page242'},
+        {name:'Stye reccurent', link:'/#/page1/tab4/page243'},
+        {name:'Acne on the forehead and the back', link:'/#/page1/tab4/page235'},
+        {name:'Pustular acne', link:'/#/page1/tab4/page246'},
+        {name:'Acne - other', link:'/#/page1/tab4/page247'},
+        {name:'Athlete\'s foot with itching', link:'/#/page1/tab4/page248'},
+        {name:'Athlete\'s foot with oozing', link:'/#/page1/tab4/page249'},
+        {name:'Blisters', link:'/#/page1/tab4/page250'},
+        {name:'Boils - onset of boils', link:'/#/page1/tab4/page263'},
+        {name:'Boils - recurrent boils', link:'/#/page1/tab4/page264'},
+        {name:'Boils - other', link:'/#/page1/tab4/page265'},
+        {name:'Burns - blisters', link:'/#/page1/tab4/page251'},
+        {name:'Burns - pink skin, itching', link:'/#/page1/tab4/page252'},
+        {name:'Burns - red skin, burning', link:'/#/page1/tab4/page253'},
+        {name:'Cold urticaria', link:'/#/page1/tab4/coldurticaria'},
+        {name:'Fissures cracked skin', link:'/#/page1/tab4/page259'},
+        {name:'Fissures fingers', link:'/#/page1/tab4/page260'},
+        {name:'Fissures thin, painful, bleeding easily', link:'/#/page1/tab4/page261'},
+        {name:'Fissures with oozing and dry, crusty skin', link:'/#/page1/tab4/page262'},
+        {name:'Frostnip with burning', link:'/#/page1/tab4/page266'},
+        {name:'Frostnip with itching at night', link:'/#/page1/tab4/page267'},
+        {name:'Frostnip with swelling', link:'/#/page1/tab4/page268'},
+        {name:'Hives', link:'/#/page1/tab4/page22'},
+        {name:'Insect bites - chiggers', link:'/#/page1/tab4/page271'},
+        {name:'Insect bites - mosquitos', link:'/#/page1/tab4/page272'},
+        {name:'Insect bites - spiders', link:'/#/page1/tab4/page273'},
+        {name:'Insect bites - wasps|bees', link:'/#/page1/tab4/page274'},
+        {name:'Itching - at night', link:'/#/page1/tab4/page275'},
+        {name:'Itching - from dry skin', link:'/#/page1/tab4/page276'},
+        {name:'Itching - from hives', link:'/#/page1/tab4/page22'},
+        {name:'Itching from insect bites - chiggers', link:'/#/page1/tab4/page271'},
+        {name:'Itching from insect bites - mosquitos', link:'/#/page1/tab4/page272'},
+        {name:'Itching from insect bites - spiders', link:'/#/page1/tab4/page273'},
+        {name:'Itching from insect bites - wasps|bees', link:'/#/page1/tab4/page274'},
+        {name:'Itching from skin allergy', link:'/#/page1/tab4/page296'},
+        {name:'Itching in elderly persons', link:'/#/page1/tab4/page297'},
+        {name:'Itching of surgical wounds', link:'/#/page1/tab4/page299'},
+        {name:'Itching from skin allergy', link:'/#/page1/tab4/page296'},
+        {name:'Itching of warts', link:'/#/page1/tab4/page296'},
+        {name:'Itching triggered by dampness and cold', link:'/#/page1/tab4/page301'},
+        {name:'Itching triggered by the contact of wool', link:'/#/page1/tab4/page302'},
+        {name:'Itching when undressing', link:'/#/page1/tab4/page303'},
+        {name:'Itching with burning pain', link:'/#/page1/tab4/page304'},
+        {name:'Itching worse with heat or water', link:'/#/page1/tab4/page305'},
+        {name:'Prickly heat (miliaria) - itching is worsened by contact with water', link:'/#/page1/tab4/page310'},
+        {name:'Prickly heat (miliaria) - itching with hypersensitivity to touch', link:'/#/page1/tab4/page311'},
+        {name:'Scars from burns', link:'/#/page1/tab4/page312'},
+        {name:'Scars from chickenpox', link:'/#/page1/tab4/page307'},
+        {name:'Scars from surgery', link:'/#/page1/tab4/page314'},
+        {name:'Scars from painful scars', link:'/#/page1/tab4/page315'},
+        {name:'Scars from thick scars', link:'/#/page1/tab4/page335'},
+        {name:'Scars with itching', link:'/#/page1/tab4/page317'},
+        {name:'Shingles or zoster pain - with bluish-white vesicles', link:'/#/page1/tab4/page318'},
+        {name:'Shingles or zoster pain - with burning and large vesicles', link:'/#/page1/tab4/page319'},
+        {name:'Shingles or zoster pain - with itching and small, clear vesicles', link:'/#/page1/tab4/page320'},
+        {name:'Shingles or zoster pain - worsened by touch or jolts', link:'/#/page1/tab4/page321'},
+        {name:'Small wound from a sharp object', link:'/#/page1/tab4/page322'},
+        {name:'Small wound from puncture wounds', link:'/#/page1/tab4/page323'},
+        {name:'Sunburn with pink skin, itching', link:'/#/page1/tab4/page325'},
+        {name:'Sunburn with red skin, itching', link:'/#/page1/tab4/page326'},
+        {name:'Sun allergy before exposure', link:'/#/page1/tab4/page324'},
+        {name:'Sun allergy after exposure', link:'/#/page1/tab4/page19'},
+        {name:'Sun-induced skin rash', link:'/#/page1/tab4/page327'},
+        {name:'Turf burn', link:'/#/page1/tab4/page328'},
+        {name:'Warts - around the nails', link:'/#/page1/tab4/page316'},
+        {name:'Warts - flat, translucent', link:'/#/page1/tab4/page330'},
+        {name:'Warts - hard, calloused warts', link:'/#/page1/tab4/page331'},
+        {name:'Warts - on the face', link:'/#/page1/tab4/page332'},
+        {name:'Warts - single large plantar wart', link:'/#/page1/tab4/page333'},
+        {name:'Warts - under the nails', link:'/#/page1/tab4/page334'},
+        {name:'Weals', link:'/#/page1/tab4/page28'},
+        {name:'Yeast Infection', link:' #/page1/tab4/page502'},
+        {name:'Sleeplessness with fear of darkness', link:' #/page1/tab4/page55'},
+        {name:'Sleeplessness with restless legs', link:' #/page1/tab4/page56'},
+        {name:'Profuse sweating from menopause', link:' #/page1/tab4/page501'},
+        {name:'Profuse sweating from hot flashes', link:' #/page1/tab4/page500'},
+        {name:'Sleeplessness with influx of thoughts', link:' #/page1/tab4/page54'},
+        {name:'Sleeplessness with waking up mid-sleep', link:' #/page1/tab4/page53'},
+        {name:'Sleeplessness from muscular overexertion', link:' #/page1/tab4/page52'},
+        {name:'Sleeplessness from intellectual overwork', link:' #/page1/tab4/page51'},
+        {name:'Sleeplessness from grief, anger, or vexation', link:' #/page1/tab4/page50'},
+        {name:'Sleeplessness associated with PMS', link:' #/page1/tab4/page49'},
+        {name:'Sleeplessness associated with hot flashes', link:' #/page1/tab4/page48'},
+        {name:'Premenstrual syndrome with mood swings', link:' #/page1/tab4/page497'},
+        {name:'Premenstrual syndrome worse with cold', link:' #/page1/tab4/page498'},
+        {name:'Premenstrual syndrome', link:' #/page1/tab4/page499'},
+        {name:'Perimenopause with hot flashes', link:' #/page1/tab4/page494'},
+        {name:'Perimenopause with irritability', link:'#/page1/tab4/page495'},
+        {name:'Perimenopause with night sweats', link:' #/page1/tab4/page496'},
+        {name:'Night sweats associated hot flashes', link:' #/page1/tab4/page483'},
+        {name:'Night sweats associated with menopause', link:' #/page1/tab4/page484'},
+        {name:'Morning sickness', link:' #/page1/tab4/page482'},
+        {name:'Menstrual Cramps at the onset of periods', link:' #/page1/tab4/page488'},
+        {name:'Menstrual Cramps improved by bending over', link:' #/page1/tab4/page489'},
+        {name:'Menstrual Cramps relieved by strong pressure', link:'#/page1/tab4/page490'},
+        {name:'Menstrual Cramps with heavy menstruation', link:' #/page1/tab4/page491'},
+        {name:'Menstrual Cramps that are worse with anger', link:' #/page1/tab4/page492'},
+        {name:'Menstrual Cramps', link:' #/page1/tab4/page493'},
+        {name:'Irritability associated with hot flashes', link:'#/page1/tab4/page48'},
+        {name:'Irritability associated with menopause', link:'#/page1/tab4/page484'},
+        {name:'Irritability from grief, anger, or vexation', link:' #/page1/tab4/page269'},
+        {name:'Irritability with digestive problems', link:'#/page1/tab4/page481'},
+        {name:'Hot flashes associated with menopause', link:' #/page1/tab4/page484'},
+        {name:'Hot flashes associated with night sweats', link:'#/page1/tab4/page487'},
+        {name:'Heavy Menstruation with blood clots', link:' #/page1/tab4/page485'},
+        {name:'Heavy Menstruation with nausea', link:'#/page1/tab4/page486'},
+        {name:'Heavy Legs', link:'#/page1/tab4/page63'},
+        {name:'Heavy Legs with varicose veins', link:' #/page1/tab4/page62'},
+        {name:'Heavy Legs and bruising easily', link:' #/page1/tab4/page61'},
+        {name:'Headaches associated with hot flashes', link:' #/page1/tab4/page483'},
+        {name:'Stage Fright', link:' #/page1/tab4/page468'},
+        {name:'Hair loss from grief, anger, or vexation', link:' #/page1/tab4/page269'},
+        {name:'Hair loss from physical overexertion or stressful emotions', link:' #/page1/tab4/page478'},
+        {name:'General fatigue after delivery', link:' #/page1/tab4/page469'},
+        {name:'General fatigue after surgery', link:' #page1/tab4/page470'},
+        {name:'Intellectual and physical fatigue', link:'#/page1/tab4/page471'},
+        {name:'General fatigue from flu', link:'#/page1/tab4/page474'},
+        {name:'General fatigue from intellectual overwork', link:'#/page1/tab4/page475'},
+        {name:'General fatigue from physical overexertion', link:'#/page1/tab4/page476'},
+        {name:'General fatigue with chilliness', link:'#/page1/tab4/page477'},
+        {name:'Apprehension aggravated by emotion', link:'#/page1/tab4/page457'},
+        {name:'Apprehension and hurriedness from stress', link:'#/page1/tab4/page458'},
+       {name:'Apprehension and hypersensitivity to stress', link:'#/page1/tab4/page465'},
+        {name:'Apprehension with lump in the throat', link:'#/page1/tab4/page466'},
+        {name:'Apprehension and belching', link:'#/page1/tab4/page464'},
+        {name:'Apprehension with general weakness', link:'#/page1/tab4/page463'},
+        {name:'Apprehension with lack of memory', link:'#/page1/tab4/page467'},
+        {name:'Apprehension with stomachaches', link:'#/page1/tab4/page461'},
+        {name:'Irritabliity from quitting smoking', link:'#/page1/tab4/page454'},
+        {name:'Quitting smoking - needing to eat', link:'#/page1/tab4/page455'},
+        {name:'Tobacco craving from quitting smoking', link:'#/page1/tab4/page456'},
+        {name:'Bone Trauma', link:'#/page1/tab4/page396'},
+        {name:'Breast Trauma', link:'#/page1/tab4/page398'},
+        {name:'Bruise', link:'#/page1/tab4/page397'},
+        {name:'Gouty Toe improved by strong pressure', link:'#/page1/tab4/page427'},
+        {name:'Gouty Toe worsened by the slightest movement', link:'#/page1/tab4/page428'},
+        {name:'Gouty Toe', link:'#/page1/tab4/page429'},
+        {name:'Golfer\'s elbow worsened by moving the limb', link:'#/page1/tab4/page431'},
+        {name:'Golfer\'s elbow improved by moving the limb', link:'#/page1/tab4/page430'},
+        {name:'Headache above the eyes', link:'#/page1/tab4/page432'},
+        {name:'Headache at the back of the head', link:'#/page1/tab4/page433'},
+        {name:'Headache from delaying meals', link:'#/page1/tab4/page434'},
+        {name:'Headache from hot flashes', link:'#/page1/tab4/page437'},
+        {name:'Headache from indigestion', link:'#/page1/tab4/page436'},
+        {name:'Headache from intellectual overwork', link:'#/page1/tab4/page438'},
+        {name:'Headache from overindulgence', link:'#/page1/tab4/page209'},
+        {name:'Headache from stress', link:'#/page1/tab4/page439'},
+        {name:'Headache in the forehead with heartburn', link:'#/page1/tab4/page440'},
+        {name:'Periodical Headaches when relaxing', link:'#/page1/tab4/page441'},
+        {name:'Throbbing Headache', link:'#/page1/tab4/page442'},
+        {name:'Headache with nausea', link:'#/page1/tab4/page443'},
+        {name:'Headache with overactive thoughts', link:'#/page1/tab4/page444'},
+        {name:'Headache with sensitivity to light and noise', link:'#/page1/tab4/page445'},
+        {name:'Jumper\'s Knee improved by moving the limb', link:'#/page1/tab4/page430'},
+        {name:'Jumper\'s Knee worsened by moving the limb', link:'#/page1/tab4/page431'},
+        {name:'Leg Pains', link:'#/page1/tab4/page355'},
+        {name:'Muscular overexertion', link:'#/page1/tab4/page360'},
+        {name:'Nerve pain with hypersensitivity to pain', link:'#/page1/tab4/page446'},
+        {name:'Nerve pain with Sciatica', link:'#/page1/tab4/page447'},
+        {name:'Nosebleeds', link:'#/page1/tab4/page41'},
+        {name:'Pitcher\'s Shoulder worsened by moving limb', link:'#/page1/tab4/page431'},
+        {name:'Sprain in first 48 hours', link:'#/page1/tab4/page366'},
+        {name:'Repeated sprains', link:'#/page1/tab4/page366'},
+        {name:'Sprain - Long term treatment', link:'#/page1/tab4/page366'},
+        {name:'Sprains', link:'#/page1/tab4/page367'},
+        {name:'Stiffness from overexertion', link:'#/page1/tab4/page368'},
+        {name:'Stiffness from physical therapy', link:'#/page1/tab4/page370'},
+        {name:'Stiffness from trauma', link:'#/page1/tab4/page372'},
+        {name:'Stiffness improved by heat', link:'#/page1/tab4/page375'},
+        {name:'Stiffness improved by motion', link:'#/page1/tab4/page376'},
+        {name:'Stiffness worse with motion', link:'#/page1/tab4/page377'},
+        {name:'Strained muscle', link:'#/page1/tab4/page450'},
+        {name:'Surgery wound itching from healing', link:'#/page1/tab4/page299'},
+        {name:'Pre-Surgery', link:'#/page1/tab4/page452'},
+        {name:'Post-surgery', link:'#/page1/tab4/page451'},
+        {name:'Swimmer\'s shoulder improved by moving the limb', link:'#/page1/tab4/page430'},
+        {name:'Swimmer\'s shoulder worsened by moving the limb', link:'#/page1/tab4/page431'},
+        {name:'Tendinitis improved by moving the limb', link:'#/page1/tab4/page430'},
+        {name:'Tendinitis worsened by moving the limb', link:'#/page1/tab4/page431'},
+        {name:'Tennis elbow improved by moving the limb', link:'#/page1/tab4/page430'},
+        {name:'Tennis elbow worsened by moving the limb', link:'#/page1/tab4/page431'},
+        {name:'Torticollis (wry neck)', link:'#/page1/tab4/page453'},
+        {name:'Bleeding gums with a bad taste in the mouth', link:'#/page1/tab4/page384'},
+        {name:'Bleeding gums', link:'#/page1/tab4/page385'},
+        {name:'Tooth extraction', link:'#/page1/tab4/page386'},
+        {name:'Motion sickness and feeling icy cold', link:'#/page1/tab4/page373'},
+        {name:'Motion sickness improved by eating', link:'#/page1/tab4/page219'},
+        {name:'Motion sickness improved by fresh air', link:'#/page1/tab4/page220'},
+        {name:'Motion sickness in airplanes', link:'#/page1/tab4/page374'},
+        {name:'Motion sickness in boats', link:'#/page1/tab4/page380'},
+        {name:'Motion sickness in the passenger seat', link:'#/page1/tab4/page381'},
+        {name:'Motion sickness relieved by heat', link:'#/page1/tab4/page382'},
+        {name:'Motion sickness and weakness', link:'#/page1/tab4/page221'},
+        {name:'Arthritis pain with stiff joints', link:'#/page1/tab4/page344'},
+        {name:'Arthritis pain with swollen joints, itching pain', link:'#/page1/tab4/page345'},
+        {name:'Arthritis pain', link:'#/page1/tab4/page346'},
+        {name:'Growing pains', link:'#/page1/tab4/page38'},
+        {name:'Cramps in the neck', link:'#/page1/tab4/page347'},
+        {name:'Joint pain improved by firm pressure', link:'#/page1/tab4/page348'},
+        {name:'Joint pain improved by motion', link:'#/page1/tab4/page349'},
+        {name:'Joint pain in fingers', link:'#/page1/tab4/page350'},
+        {name:'Joint pain triggered pain dampness and cold', link:'#/page1/tab4/page351'},
+        {name:'Joint pain worse with motion', link:'#/page1/tab4/page352'},
+        {name:'Leg cramps at night', link:'#/page1/tab4/page353'},
+        {name:'Leg cramps from overexertion', link:'#/page1/tab4/page354'},
+        {name:'Leg pains', link:'#/page1/tab4/page355'},
+        {name:'Feeling of weakness in the lower back', link:'#/page1/tab4/page356'},
+        {name:'Lower back pain with shooting pain', link:'#/page1/tab4/page357'},
+        {name:'Lower back pain worse with rest', link:'#/page1/tab4/page358'},
+        {name:'Muscle soreness from minor trauma', link:'#/page1/tab4/page359'},
+        {name:'Muscle soreness from overexertion', link:'#/page1/tab4/page360'},
+        {name:'Muscle soreness improved by firm pressure', link:'#/page1/tab4/page361'},
+        {name:'Muscle soreness improved by motion', link:'#/page1/tab4/page349'},
+        {name:'Muscle soreness triggered by dampness and cold', link:'#/page1/tab4/page351'},
+        {name:'Muscle soreness worse with motion', link:'#/page1/tab4/page363'},
+        {name:'Musician\'s Cramps', link:'#/page1/tab4/page364'},
+        {name:'Restless legs', link:'#/page1/tab4/page365'},
+        {name:'Writer\'s Cramp with muscular weakness', link:'#/page1/tab4/page378'},
+        {name:'Writer\'s Cramp with shooting pain', link:'#/page1/tab4/page379'},
+        {name:'Heel pain', link:'#/page1/tab4/page600'},
+        {name:'Ankle pain', link:'#/page1/tab4/page600'},
+        {name:'Foot pain', link:'#/page1/tab4/page600'},
+        {name:'Chapped lips on lower lips with dry lips', link:'#/page1/tab4/page254'},
+        {name:'Chapped lips - perleche -  angular cheilitis', link:'#/page1/tab4/page255'}
+      ]">
+      </div>
+
+      <div id="symptoms225" ng-init="medicines2 = 
+      [
+      {name:'Acidil', link:'#/page1/page650'},
+       
+        {name:'Aconitum napellus 6C', link:'#/page1/page651'},
+        {name:'Acteane', link:'#/page1/page652'},
+        {name:'Aesculus hippocastanum 6C', link:'#/page1/page653'},
+        {name:'Agaricus muscarius 6C', link:'#/page1/page654'},
+        {name:'Allium cepa 6C', link:'#/page1/page655'},
+        {name:'Alumina 6C', link:'#/page1/page656'},
+        {name:'Antimonium crudum 30C', link:'#/page1/page657'},
+        {name:'Antimonium crudum 6C', link:'#/page1/page658'},
+        {name:'Antimonium tartaricum 30C', link:'#/page1/page659'},
+        
+
+        {name:'Apis mellifica 30C', link:'#/page1/page661'},
+        {name:'Argentum nitricum 30C', link:'#/page1/page662'},
+        {name:'Argentum nitricum 6C', link:'#/page1/page663'},
+        {name:'Arnica montana 30C', link:'#/page1/page664'},
+        {name:'Arnica montana 6C', link:'#/page1/page665'},
+        {name:'Arnicare Arthritis', link:'#/page1/page666'},
+        {name:'Arnicare Cream', link:'#/page1/page667'},
+        {name:'Arnicare Gel', link:'#/page1/page668'},
+        {name:'Arnicare Leg Cramps', link: '#/page1/page511'},
+        {name:'Arnicare Roll-on', link: '#/page1/page510'},
+        {name:'Arnicare FootCare', link: '#/page1/page512'},
+
+
+        {name:'ColicComfort', link: '#/page1/page277'},
+        {name:'RhinAllergy Tablets', link: '#/page1/page513'},
+        {name:'RhinAllergy Kids Tablets', link: '#/page1/page514'},
+        {name:'RhinAllergy Kids Pellets', link: '#/page1/page515'},
+
+        {name:'Arsenicum album 30C', link:'#/page1/page669'},
+        {name:'Arsenicum album 6C', link:'#/page1/page670'},
+        {name:'Arsenicum iodatum 6C', link:'#/page1/page671'},
+        {name:'Arum triphyllum 6C', link:'#/page1/page672'},
+        {name:'Avenoc Oinment', link:'#/page1/page673'},
+        {name:'Avenoc Suppositories', link:'#/page1/page674'},
+        {name:'Belladonna 30C', link:'#/page1/page675'},
+        {name:'Belladonna 6C', link:'#/page1/page676'},
+        {name:'Bellis perennis 6C', link:'#/page1/page677'},
+        {name:'Borax 30C', link:'#/page1/page678'},
+
+        {name:'Borax 6C', link:'#/page1/page679'},
+        {name:'Bryonia 6C', link:'#/page1/page680'},
+        {name:'Calcarea carbonica 30C', link:'#/page1/page681'},
+        {name:'Calcarea carbonica 6C', link:'#/page1/page682'},
+        {name:'Calcarea fluorica 6C', link:'#/page1/page683'},
+        {name:'Calcarea phosphorica 30C', link:'#/page1/page684'},
+        {name:'Calcarea phosphorica 6C', link:'#/page1/page685'},
+        {name:'Calcarea sulphurica 30C', link:'#/page1/page686'},
+        {name:'Calendula Cream', link:'#/page1/page687'},
+        {name:'Calendula Gel', link:'#/page1/page688'},
+
+        {name:'Calendula Ointment', link:'#/page1/page689'},
+        {name:'Camilia', link:'#/page1/page690'},
+        {name:'Cantharis 30C', link:'#/page1/page691'},
+        {name:'Cantharis 6C', link:'#/page1/page692'},
+        {name:'Carbo vegetabilis 6C', link:'#/page1/page693'},
+        {name:'Caulophyllum thalictroides 30C', link:'#/page1/page694'},
+        {name:'Caulophyllum thalictroides 6C', link:'#/page1/page695'},
+        {name:'Causticum 30C', link:'#/page1/page696'},
+        {name:'Causticum 6C', link:'#/page1/page697'},
+        {name:'Chamomilla 30C', link:'#/page1/page698'},
+
+        {name:'Chelidonium majus 6C', link:'#/page1/page699'},
+        {name:'Chestal Cold & Cough - Children\'s Chestal Cold & Cough', link:'#/page1/page700'},
+        {name:'Chestal Honey - Children\'s Chestal Honey', link:'#/page1/page701'},
+        {name:'Cimicifuga racemosa 6C', link:'#/page1/page702'},
+        {name:'Cinchona officinalis 30C', link:'#/page1/page703'},
+        {name:'Cinchona officinalis 6C', link:'#/page1/page704'},
+        {name:'Cocculus indicus 6C', link:'#/page1/page705'},
+        {name:'Coffea cruda 30C', link:'#/page1/page706'},
+        {name:'Colchicum autumnale 6C', link:'#/page1/page707'},
+        {name:'ColdCalm - Children\'s ColdCalm', link:'#/page1/page708'},
+
+        {name:'ColdCalm Kids Single Unit-dose', link:'#/page1/page709'},
+        {name:'Collinsonia canadensis 6C', link:'#/page1/page710'},
+        {name:'Colocynthis 6C', link:'#/page1/page711'},
+        {name:'Condurango 6C', link:'#/page1/page712'},
+        {name:'Cuprum metallicum 6C', link:'#/page1/page713'},
+        {name:'Cyclease Cramp', link:'#/page1/page714'},
+        {name:'Cyclease PMS', link:'#/page1/page715'},
+        {name: 'Diaralia', link:'#/page1/page820'},
+        {name:'Dolichos pruriens 6C', link:'#/page1/page716'},
+        {name:'Drosera 30C', link:'#/page1/page717'},
+        {name:'Dulcamara 30C', link:'#/page1/page718'},
+
+        {name:'Dulcamara 6C', link:'#/page1/page719'},
+
+        {name:'Eupatorium perfoliatum 6C', link:'#/page1/page720'},
+        {name:'Euphrasia officinalis 6C', link:'#/page1/page721'},
+        {name:'Ferrum phosphoricum 6C', link:'#/page1/page722'},
+        {name:'Galphimia glauca 6C', link:'#/page1/page723'},
+        {name:'Gasalia', link:'#/page1/page724'},
+        {name:'Gelsemium sempervirens 30C', link:'#/page1/page725'},
+        {name:'Gelsemium sempervirens 6C', link:'#/page1/page726'},
+        {name:'Glonoinum 6C', link:'#/page1/page727'},
+        {name:'Graphites 30C', link:'#/page1/page728'},
+
+        {name:'Graphites 6C', link:'#/page1/page729'},
+
+        
+        {name:'Hamamelis virginiana 6C', link:'#/page1/page730'},
+        {name:'Hepar sulphuris calcareum 30C', link:'#/page1/page731'},
+        {name:'Hepar sulphuris calcareum 6C', link:'#/page1/page732'},
+        {name:'Histaminum 30C', link:'#/page1/page733'},
+        {name:'Histaminum 6C', link:'#/page1/page734'},
+      
+        {name:'Hydrastis canadensis 6C', link:'#/page1/page736'},
+        {name:'Hypericum perforatum 30C', link:'#/page1/page737'},
+        {name:'Ignatia 30C', link:'#/page1/page738'},
+
+        {name:'Ipecacuanha 30C', link:'#/page1/page739'},
+        {name:'Ipecacuanha 6C', link:'#/page1/page740'},
+        {name:'Iris versicolor 30C', link:'#/page1/page741'},
+        {name:'Iris versicolor 6C', link:'#/page1/page742'},
+        {name:'Jet Lag Relief Care Pack', link:'#/page1/page743'},
+        {name:'Kali bichromicum 6C', link:'#/page1/page744'},
+        {name:'Kali bromatum 6C', link:'#/page1/page745'},
+        {name:'Kali carbonicum 6C', link:'#/page1/page746'},
+        {name:'Kali iodatum 6C', link:'#/page1/page747'},
+        {name:'Kali muriaticum 30C', link:'#/page1/page748'},
+        {name:'Kali phosphoricum 30C', link:'#/page1/page749'},
+
+        {name:'Kali Phosphoricum 30C Buy 2 Get 1 Free Pack', link:'#/page1/page750'},
+        {name:'Kali sulphuricum 6C', link:'#/page1/page751'},
+        {name:'Lachesis mutus 30C', link:'#/page1/page752'},
+        {name:'Lachnanthes 6C', link:'#/page1/page753'},
+        {name:'Ledum palustre 30C', link:'#/page1/page754'},
+        {name:'Ledum palustre 6C', link:'#/page1/page755'},
+        {name:'Leg Pain Relief Care Pack', link:'#/page1/page756'},
+        {name:'Lobelia inflata 6C', link:'#/page1/page757'},
+        {name:'Lycopodium 6C', link:'#/page1/page758'},
+        {name:'Lycopodium clavatum 6C', link:'#/page1/page759'},
+        {name:'Magnesia phosphorica 30C', link:'#/page1/page760'},
+
+        {name:'Magnesia phosphorica 6C', link:'#/page1/page761'},
+        {name:'Mercurius solubilis 6C', link:'#/page1/page762'},
+        {name:'Mezereum 30C', link:'#/page1/page763'},
+        {name:'Mezereum 6C', link:'#/page1/page764'},
+        {name:'Natrum muriaticum 30C', link:'#/page1/page765'},
+        {name:'Natrum muriaticum 6C', link:'#/page1/page766'},
+        {name:'Nitricum acidum 6C', link:'#/page1/page767'},
+        {name:'Nux vomica 30C', link:'#/page1/page768'},
+        {name:'Nux Vomica 30C Buy 2 Get 1 Free Pack', link:'#/page1/page769'},
+        {name:'Nux vomica 6C', link:'#/page1/page770'},
+
+        {name:'Optique 1', link:'#/page1/page771'},
+        {name:'Oscillococcinum', link:'#/page1/page772'},
+        {name:'Petroleum 6C', link:'#/page1/page773'},
+        {name:'Phosphoricum acidum 30C', link:'#/page1/page774'},
+        {name:'Phosphoricum acidum 6C', link:'#/page1/page775'},
+        {name:'Phosphorus 6C', link:'#/page1/page776'},
+        {name:'Phytolacca decandra 6C', link:'#/page1/page777'},
+        {name:'Platinum metallicum 6C', link:'#/page1/page778'},
+        {name:'Podophyllum peltatum 30C', link:'#/page1/page779'},
+        {name:'Pulsatilla 6C', link:'#/page1/page780'},
+
+        {name:'Quietude', link:'#/page1/page781'},
+        {name:'Ranunculus bulbosus 6C', link:'#/page1/page782'},
+        {name:'Rhus tox 30C', link:'#/page1/page783'},
+        {name:'Rhus tox 6C', link:'#/page1/page784'},
+        {name:'Rumex crispus 6C', link:'#/page1/page785'},
+        {name:'Ruta graveolens 6C', link:'#/page1/page786'},
+        {name:'Sabina 6C', link:'#/page1/page787'},
+        {name:'Sedalia', link:'#/page1/page788'},
+        {name:'Sepia 30C', link:'#/page1/page789'},
+        {name:'Silicea 30C', link:'#/page1/page790'},
+
+        {name:'Silicea 6C', link:'#/page1/page791'},
+        {name:'Sinusalia', link:'#/page1/page792'},
+        {name:'Spongia tosta 6C', link:'#/page1/page793'},
+        {name:'Staphysagria 30C', link:'#/page1/page794'},
+        {name:'Staphysagria 6C', link:'#/page1/page795'},
+        {name:'Stramonium 6C', link:'#/page1/page796'},
+        {name:'Sulphur 6C', link:'#/page1/page797'},
+        
+        {name:'Sulphur iodatum 6C', link:'#/page1/page799'},
+
+        {name:'Symphytum officinale 6C', link:'#/page1/page800'},
+        {name:'Tabacum 6C', link:'#/page1/page801'},
+        {name:'Tarentula cubensis 6C', link:'#/page1/page802'},
+        {name:'ThroatCalm', link:'#/page1/page803'},
+        {name:'Thuja occidentalis 30C', link:'#/page1/page804'},
+        {name:'Thuja occidentalis 6C', link:'#/page1/page805'},
+        {name:'ThujaOccidentalis 30C Buy 2 Get 1 Free Pack', link:'#/page1/page806'},
+        {name:'Urtica urens 6C', link:'#/page1/page807'},
+        {name:'Veratrum album 6C', link:'#/page1/page808'},
+        {name:'Yeastaway', link:'#/page1/page809'},
+        {name:'Zincum metallicum 30C', link:'#/page1/page810'},
+        {name:'Zincum metallicum 6C', link:'#/page1/page811'}
+
+        ]">
+      </div>
+
+      <div class="spacer" style="height: 20px;"></div>
+      <div class="spacer" style="height: 20px;"></div>
+      
+    
+<center>
+<form id="search">
+  <input 
+  type="text"
+  ng-model="searchText" 
+  placeholder="Search..."
+  ></input>
+</form>
+</center> 
+<!--<div class="mcgeebutton"><b style="color: white;">Search</b></div>--> 
+<div class="spacer" style="height: 10px;"></div>
+
+<center>
+   
+    <div class="button-bar">
+      <a href="" ng-click="goCats = !goCats" class="button">Symptoms</a>
+      <a href="" ng-click="goCats2 = !goCats2" class="button">Medicines</a>
+    </div>
+
+    <table ng-show="goCats" id="searchTextResults" width="100%">
+      <tr ng-repeat="medicine in medicines | filter:searchText" style="border-bottom: 1px solid #bebebe; width: 250px; ">
+        <td style="padding-bottom: 5px; padding-top: 5px; padding-left: 10px;text-align: left;"><a href="{{medicine.link}}" style="color: black; text-decoration:none;">{{medicine.name}}</a> 
+        </td>   
+      </tr >
+    </table>
+
+    <table ng-show="goCats2" id="searchTextResults" width="100%">
+      <tr ng-repeat="medicine in medicines2 | filter:searchText" style="border-bottom: 1px solid #bebebe; width: 250px; ">
+        <td style="padding-bottom: 5px; padding-top: 5px; padding-left: 10px;text-align: left;"><a href="{{medicine.link}}" style="color: black; text-decoration:none;">{{medicine.name}}</a>
+        </td>
+      </tr >
+    </table>
+  
+<!--
+    <div class="container" ng-app="showApp" ng-controller="mainController">
+
+    
+  
+   
+      <div class="row text-center">
+        <div class="col-xs-2">
+          
+     
+          <a href="" ng-click="goCats = !goCats" class="button button-primary button-large">Toggle Cats</a>
+        </div>
+        
+        <div class="col-xs-6">
+          <img ng-src="https://i.imgur.com/vkW3Lhe.jpg" ng-show="goCats">
+        </div>
+      </div>
+      
+  </div>
+-->  
+
+</center>
+
+
+<br>
+<!--TABLE WAS HERE-->
+
+
+
+<div class="spacer" style="height: 20px;"></div>
+<div class="spacer" style="height: 20px;"></div>
+<div class="spacer" style="height: 20px;"></div>
+<div class="spacer" style="height: 20px;"></div> 
+<!-- i Frame Option
+
+    <div class="mobilehappery" style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 100%; overflow: hidden;">
+
+
+        <iframe 
+        data-tap-disabled="true" 
+        allowfullscreen="" 
+        frameborder="0" 
+        src="//boironalog.boiron.cloud/"
+        style='border:none; position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;'
+        scrolling='auto' 
+    onload='window.parent.scrollTo(0,0);'   >
+    </iframe>
+   
+
+</div>
+  
+  -->
+
+
+  </ion-content>
+</ion-view>

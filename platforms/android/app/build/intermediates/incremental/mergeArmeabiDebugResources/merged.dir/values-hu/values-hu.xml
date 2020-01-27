@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BE"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="accessibility_date_picker_month">"hónap"</string>
+    <string name="accessibility_date_picker_week">"Hét"</string>
+    <string name="accessibility_date_picker_year">"Év"</string>
+    <string name="accessibility_datetime_picker_date">"Dátum"</string>
+    <string name="accessibility_datetime_picker_time">"Idő"</string>
+    <string name="accessibility_time_picker_ampm">"de./du."</string>
+    <string name="accessibility_time_picker_hour">"Óra"</string>
+    <string name="accessibility_time_picker_milli">"Ezredmásodperc"</string>
+    <string name="accessibility_time_picker_minute">"Perc"</string>
+    <string name="accessibility_time_picker_second">"Másodperc"</string>
+    <string name="actionbar_share">"Megosztás"</string>
+    <string name="actionbar_textselection_title">"Szöveg kijelölése"</string>
+    <string name="actionbar_web_search">"Internetes keresés"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Javaslatok állnak rendelkezésre"</string>
+    <string name="autofill_popup_content_description">"Automatikus kitöltés előugró ablakának megjelenítése"</string>
+    <string name="color_picker_button_black">"Fekete"</string>
+    <string name="color_picker_button_blue">"Kék"</string>
+    <string name="color_picker_button_cancel">"Mégse"</string>
+    <string name="color_picker_button_cyan">"Cián"</string>
+    <string name="color_picker_button_green">"Zöld"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Hosszabban"</string>
+    <string name="color_picker_button_red">"Piros"</string>
+    <string name="color_picker_button_set">"Beállítás"</string>
+    <string name="color_picker_button_white">"Fehér"</string>
+    <string name="color_picker_button_yellow">"Sárga"</string>
+    <string name="color_picker_dialog_title">"Szín kiválasztása"</string>
+    <string name="color_picker_hue">"Színárnyalat"</string>
+    <string name="color_picker_saturation">"Telítettség"</string>
+    <string name="color_picker_value">"Érték"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Keresd fel a &lt;b>facebook.com/device&lt;/b> címet, és írd be a fent megjelenített kódot.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Váratlan hiba történt a kép letöltésekor.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">A WebView-bejelentkezéshez „INTERNET” jogosultság szükséges.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest hiba</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Kedvelt</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Tetszik</string>
+    <string gender="unknown" name="com_facebook_loading">Betöltés…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Mégsem</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Belépés</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Folytatás a Facebookkal</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Bejelentkezés Facebookkal</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Kijelentkezés</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Kijelentkezés</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Bejelentkezve %1$s néven</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Bejelentkezve a Facebook használatával</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Küldés</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Megosztás</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">A fiók hozzákapcsolásához nyisd meg a mobilkészülékeden a Facebook alkalmazást, és nézd meg az értesítéseket.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- VAGY -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Nem te vagy az?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Folytatás mint %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Bejelentkezés megerősítése</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Te irányítasz – válaszd ki, milyen adatokat szeretnél megosztani az alkalmazásokkal.</string>
+    <string name="copy_to_clipboard_failure_message">"Nem sikerült a vágólapra másolni"</string>
+    <string name="date_picker_dialog_clear">"Törlés"</string>
+    <string name="date_picker_dialog_other_button_label">"Egyéb"</string>
+    <string name="date_picker_dialog_set">"Beállítás"</string>
+    <string name="date_picker_dialog_title">"Dátum beállítása"</string>
+    <string name="date_time_picker_dialog_title">"Dátum és idő beállítása"</string>
+    <string name="low_memory_error">"Az előző műveletet memóriahiány miatt nem lehet elvégezni"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Sajnos ezt a videót nem lehet erre az eszközre sugározni."</string>
+    <string name="media_player_error_text_unknown">"Sajnos a videót nem lehet lejátszani."</string>
+    <string name="media_player_error_title">"Nem lehet lejátszani a videót"</string>
+    <string name="media_player_loading_video">"Videó betöltése"</string>
+    <string name="month_picker_dialog_title">"Hónap beállítása"</string>
+    <string name="opening_file_error">"A fájl megnyitása sikertelen"</string>
+    <string name="password_generation_popup_content_description">"Jelszógenerálás előugró ablakának megjelenítése"</string>
+    <string name="profiler_error_toast">"Nem sikerült elindítani a profilozót"</string>
+    <string name="profiler_no_storage_toast">"Nem lehet elindítani a profilozót, mert a külső tároló nem áll készen"</string>
+    <string name="profiler_started_toast">"A profilozó elindult"</string>
+    <string name="profiler_stopped_toast">"A profilozó végzett. Az eredmény a következőben található: %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Keresés"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"de."</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"du."</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Idő beállítása"</string>
+    <string name="updating_chrome">"A Chrome frissítése…"</string>
+    <string name="week_picker_dialog_title">"Hét beállítása"</string>
+</resources>

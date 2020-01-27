@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ऊपर जाएं"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"कोई एप्‍लिकेशन चुनें"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"बंद"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"चालू"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"खोजा जा रहा है…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"क्‍वेरी साफ़ करें"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"सर्च करें"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"आवाज़ सर्च"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"इसके द्वारा साझा करें"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> के साथ साझा करें"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="accessibility_date_picker_month">"माह"</string>
+    <string name="accessibility_date_picker_week">"सप्ताह"</string>
+    <string name="accessibility_date_picker_year">"वर्ष"</string>
+    <string name="accessibility_datetime_picker_date">"दिनांक"</string>
+    <string name="accessibility_datetime_picker_time">"समय"</string>
+    <string name="accessibility_time_picker_ampm">"पूर्वाह्न/अपराह्न"</string>
+    <string name="accessibility_time_picker_hour">"घंटा"</string>
+    <string name="accessibility_time_picker_milli">"मिलीसेकंड"</string>
+    <string name="accessibility_time_picker_minute">"मिनट"</string>
+    <string name="accessibility_time_picker_second">"सेकंड"</string>
+    <string name="actionbar_share">"साझा करें"</string>
+    <string name="actionbar_textselection_title">"लेख चयन"</string>
+    <string name="actionbar_web_search">"वेब खोज"</string>
+    <string name="autofill_keyboard_accessory_content_description">"सुझाव उपलब्ध हैं"</string>
+    <string name="autofill_popup_content_description">"ऑटोमैटिक भरने वाला पॉपअप दिखाया जा रहा है"</string>
+    <string name="color_picker_button_black">"काला"</string>
+    <string name="color_picker_button_blue">"नीला"</string>
+    <string name="color_picker_button_cancel">"अभी नहीं"</string>
+    <string name="color_picker_button_cyan">"स्यान"</string>
+    <string name="color_picker_button_green">"हरा"</string>
+    <string name="color_picker_button_magenta">"मैजेंटा"</string>
+    <string name="color_picker_button_more">"अधिक"</string>
+    <string name="color_picker_button_red">"लाल"</string>
+    <string name="color_picker_button_set">"सेट करें"</string>
+    <string name="color_picker_button_white">"सफ़ेद"</string>
+    <string name="color_picker_button_yellow">"पीला"</string>
+    <string name="color_picker_dialog_title">"रंग चुनें"</string>
+    <string name="color_picker_hue">"रंग"</string>
+    <string name="color_picker_saturation">"संतृप्तता"</string>
+    <string name="color_picker_value">"मान"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> पर विज़िट करें और ऊपर दिखाया गया कोड डालें.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">चित्र डाउनलोड करते समय अनपेक्षित त्रुटि हुई.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView लॉग इन के लिए इंटरनेट अनुमति आवश्यक है</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest गलती</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">पसंद किया</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">पसंद करें</string>
+    <string gender="unknown" name="com_facebook_loading">लोड हो रहा है...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">रद्द करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">लॉग इन</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook के साथ जारी रखें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook से लॉग इन करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">इस रूप में लॉग इन हैं: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook का उपयोग करके लॉग इन किया है</string>
+    <string gender="unknown" name="com_facebook_send_button_text">भेजें</string>
+    <string gender="unknown" name="com_facebook_share_button_text">साझा करें</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">अपने खाते से कनेक्ट करने के लिए, अपने मोबाइल डिवाइस पर Facebook एप्लिकेशन खोलें और सूचनाएँ जाँचें.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- या -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">आप नहीं हैं?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s के रूप में जारी रखें</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">लॉग इन कन्फ़र्म करें</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">नियंत्रण आपके पास है - चुनें कि आप एप्लिकेशन के साथ कौन सी जानकारी साझा करना चाहते हैं.</string>
+    <string name="copy_to_clipboard_failure_message">"क्लिपबोर्ड पर प्रतिलिपि बनाने में विफल रहा"</string>
+    <string name="date_picker_dialog_clear">"साफ़ करें"</string>
+    <string name="date_picker_dialog_other_button_label">"अन्य"</string>
+    <string name="date_picker_dialog_set">"सेट करें"</string>
+    <string name="date_picker_dialog_title">"दिनांक सेट करें"</string>
+    <string name="date_time_picker_dialog_title">"दिनांक और समय सेट करें"</string>
+    <string name="low_memory_error">"कम स्‍मृति के कारण पिछली कार्रवाई पूरी करने में असमर्थ"</string>
+    <string name="media_player_error_button">"ठीक"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"क्षमा करें, यह वीडियो इस डिवाइस पर स्‍ट्रीम करने के लिए मान्य नहीं है."</string>
+    <string name="media_player_error_text_unknown">"क्षमा करें, यह वीडियो नहीं चलाया जा सकता."</string>
+    <string name="media_player_error_title">"वीडियो नहीं चलाया जा सकता"</string>
+    <string name="media_player_loading_video">"वीडियो लोड हो रहा है"</string>
+    <string name="month_picker_dialog_title">"माह सेट करें"</string>
+    <string name="opening_file_error">"चयनित फ़ाइल खोलने में विफल"</string>
+    <string name="password_generation_popup_content_description">"पासवर्ड जेनरेशन पॉपअप दिखाया जा रहा है"</string>
+    <string name="profiler_error_toast">"प्रोफ़ाइलर प्रारंभ करने में विफल"</string>
+    <string name="profiler_no_storage_toast">"प्रोफ़ाइलर प्रारंभ नहीं हो सकता क्‍योंकि बाहरी मेमोरी तैयार नहीं है"</string>
+    <string name="profiler_started_toast">"प्रोफ़ाइलर प्रारंभ किया गया"</string>
+    <string name="profiler_stopped_toast">"प्रोफ़ाइलर पूर्ण. परिणाम %1$s में हैं."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"सर्च"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"पूर्वाह्न"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"अपराह्न"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"समय सेट करें"</string>
+    <string name="updating_chrome">"Chrome अपडेट किया जा रहा है..."</string>
+    <string name="week_picker_dialog_title">"सप्ताह सेट करें"</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Více možností"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"VYPNUTO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ZAPNUTO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhledávací dotaz"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Sdílet pomocí"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Sdílet s aplikací <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <string name="accessibility_date_picker_month">"Měsíc"</string>
+    <string name="accessibility_date_picker_week">"Týden"</string>
+    <string name="accessibility_date_picker_year">"Rok"</string>
+    <string name="accessibility_datetime_picker_date">"Datum"</string>
+    <string name="accessibility_datetime_picker_time">"Čas"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Hodina"</string>
+    <string name="accessibility_time_picker_milli">"Milisekunda"</string>
+    <string name="accessibility_time_picker_minute">"Minuta"</string>
+    <string name="accessibility_time_picker_second">"Sekunda"</string>
+    <string name="actionbar_share">"Sdílet"</string>
+    <string name="actionbar_textselection_title">"Výběr textu"</string>
+    <string name="actionbar_web_search">"Vyhledávání na webu"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Jsou k dispozici návrhy"</string>
+    <string name="autofill_popup_content_description">"Je zobrazeno vyskakovací okno automatického vyplňování"</string>
+    <string name="color_picker_button_black">"Černá"</string>
+    <string name="color_picker_button_blue">"Modrá"</string>
+    <string name="color_picker_button_cancel">"Zrušit"</string>
+    <string name="color_picker_button_cyan">"Azurová"</string>
+    <string name="color_picker_button_green">"Zelená"</string>
+    <string name="color_picker_button_magenta">"Purpurová"</string>
+    <string name="color_picker_button_more">"Více"</string>
+    <string name="color_picker_button_red">"Červená"</string>
+    <string name="color_picker_button_set">"Nastavit"</string>
+    <string name="color_picker_button_white">"Bílá"</string>
+    <string name="color_picker_button_yellow">"Žlutá"</string>
+    <string name="color_picker_dialog_title">"Výběr barvy"</string>
+    <string name="color_picker_hue">"Odstín"</string>
+    <string name="color_picker_saturation">"Sytost"</string>
+    <string name="color_picker_value">"Hodnota"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Přejděte na &lt;b>facebook.com/device&lt;/b> a zadejte nahoře uvedený kód.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Neočekávaná chyba při stahování obrázku.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView vyžaduje oprávnění pro INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Chyba AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">To se mi už líbí</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">To se mi líbí</string>
+    <string gender="unknown" name="com_facebook_loading">Načítání...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Zrušit</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Přihlášení</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Pokračovat přes Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Přihlásit se přes Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Odhlásit se</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Odhlásit se</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Přihlášen(a) jako: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Přihlášení přes Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Odeslat</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Sdílet</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Pokud chcete připojit svůj účet, spusťte aplikaci Facebook ve svém mobilním zařízení a zkontrolujte upozornění.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- NEBO -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Nejste to vy?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Pokračovat jako %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Potvrďte přihlášení</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Je to jen na vás – nastavte si, které informace chcete s aplikacemi sdílet.</string>
+    <string name="copy_to_clipboard_failure_message">"Zkopírování obsahu do schránky se nezdařilo"</string>
+    <string name="date_picker_dialog_clear">"Vymazat"</string>
+    <string name="date_picker_dialog_other_button_label">"Ostatní"</string>
+    <string name="date_picker_dialog_set">"Nastavit"</string>
+    <string name="date_picker_dialog_title">"Nastavení data"</string>
+    <string name="date_time_picker_dialog_title">"Nastavení data a času"</string>
+    <string name="low_memory_error">"Předchozí operaci nelze dokončit z důvodu nedostatku paměti"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Video do zařízení nelze streamovat."</string>
+    <string name="media_player_error_text_unknown">"Toto video nelze přehrát."</string>
+    <string name="media_player_error_title">"Video nelze přehrát"</string>
+    <string name="media_player_loading_video">"Načítání videa"</string>
+    <string name="month_picker_dialog_title">"Nastavení měsíce"</string>
+    <string name="opening_file_error">"Vybraný soubor nelze otevřít"</string>
+    <string name="password_generation_popup_content_description">"Je zobrazeno vyskakovací okno generování hesla"</string>
+    <string name="profiler_error_toast">"Spuštění nástroje profiler se nezdařilo"</string>
+    <string name="profiler_no_storage_toast">"Nástroj profiler nelze spustit, protože externí zařízení není připraveno"</string>
+    <string name="profiler_started_toast">"Nástroj profiler byl spuštěn"</string>
+    <string name="profiler_stopped_toast">"Nástroj profiler byl ukončen. Výsledky naleznete v souboru %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Hledat"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">","</string>
+    <string name="time_picker_dialog_title">"Nastavení času"</string>
+    <string name="updating_chrome">"Aktualizace Chromu..."</string>
+    <string name="week_picker_dialog_title">"Nastavení týdne"</string>
+</resources>

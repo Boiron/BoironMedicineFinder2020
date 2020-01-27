@@ -1,0 +1,64 @@
+{
+  "_from": "branch-cordova-sdk",
+  "_id": "branch-cordova-sdk@3.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-X5H9ZRXhDZqD8c2vphKqjME5O72juTPNW3h9QVdowILuG3L6l4Iyrd/pM0Q+87GRC8ONJWbEudV2QD2G/HBcXQ==",
+  "_location": "/branch-cordova-sdk",
+  "_phantomChildren": {
+    "fs.realpath": "1.0.0",
+    "inflight": "1.0.6",
+    "inherits": "2.0.3",
+    "minimatch": "3.0.4",
+    "once": "1.4.0",
+    "path-is-absolute": "1.0.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "branch-cordova-sdk",
+    "name": "branch-cordova-sdk",
+    "escapedName": "branch-cordova-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/branch-cordova-sdk/-/branch-cordova-sdk-3.2.0.tgz",
+  "_shasum": "d3829c50613098d88e30a2e1d6ac423b782d977d",
+  "_spec": "branch-cordova-sdk",
+  "_where": "/Users/matthewmcgeehan/Desktop/FromUpwork/Combined Branches/boironMedFinder-NewSearchButton-ArrayButtonBranch",
+  "bugs": {
+    "url": "https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "mkpath": "^1.0.0",
+    "node-version-compare": "^1.0.1",
+    "plist": "^3.0.1",
+    "request": "^2.85.0",
+    "shelljs": "^0.8.3",
+    "xcode": "^2.0.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "Branch Metrics Cordova SDK",
+  "devDependencies": {},
+  "homepage": "https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "branch-cordova-sdk",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking.git"
+  },
+  "version": "3.2.0"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Gå til startsiden"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søk …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="accessibility_date_picker_month">"Måned"</string>
+    <string name="accessibility_date_picker_week">"Uke"</string>
+    <string name="accessibility_date_picker_year">"År"</string>
+    <string name="accessibility_datetime_picker_date">"Dato"</string>
+    <string name="accessibility_datetime_picker_time">"Klokkeslett"</string>
+    <string name="accessibility_time_picker_ampm">"AM/PM"</string>
+    <string name="accessibility_time_picker_hour">"Time"</string>
+    <string name="accessibility_time_picker_milli">"Millisekund"</string>
+    <string name="accessibility_time_picker_minute">"Minutt"</string>
+    <string name="accessibility_time_picker_second">"Sekund"</string>
+    <string name="actionbar_share">"Del"</string>
+    <string name="actionbar_textselection_title">"Tekstmarkering"</string>
+    <string name="actionbar_web_search">"Nettsøk"</string>
+    <string name="autofill_keyboard_accessory_content_description">"Det finnes tilgjengelige forslag"</string>
+    <string name="autofill_popup_content_description">"Viser forgrunnsvinduet for autofyll"</string>
+    <string name="color_picker_button_black">"Svart"</string>
+    <string name="color_picker_button_blue">"Blå"</string>
+    <string name="color_picker_button_cancel">"Avbryt"</string>
+    <string name="color_picker_button_cyan">"Cyan"</string>
+    <string name="color_picker_button_green">"Grønn"</string>
+    <string name="color_picker_button_magenta">"Magenta"</string>
+    <string name="color_picker_button_more">"Mer"</string>
+    <string name="color_picker_button_red">"Rød"</string>
+    <string name="color_picker_button_set">"Angi"</string>
+    <string name="color_picker_button_white">"Hvit"</string>
+    <string name="color_picker_button_yellow">"Gul"</string>
+    <string name="color_picker_dialog_title">"Velg farge"</string>
+    <string name="color_picker_hue">"Fargetone"</string>
+    <string name="color_picker_saturation">"Metning"</string>
+    <string name="color_picker_value">"Verdi"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og skriv inn koden som vises over.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Det oppstod en uvented feil under nedlasting av et bilde.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView-innlogging krever INTERNETT-tillatelse</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest-feil</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Likt</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Liker</string>
+    <string gender="unknown" name="com_facebook_loading">Laster inn ...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Avbryt</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Logg inn</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Fortsett med Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Logg inn med Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Logg av</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Logg av</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Logget inn som %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Innlogget med Facebook</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Del</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Koble til kontoen din ved å åpne Facebook-appen på mobilenheten din og se etter varsler.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">– ELLER –</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Ikke deg?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Fortsett som %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Bekreft innlogging</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Du bestemmer – velg hvilke opplysninger du vil dele med apper.</string>
+    <string name="copy_to_clipboard_failure_message">"Kunne ikke kopiere til utklippstavlen"</string>
+    <string name="date_picker_dialog_clear">"Tøm"</string>
+    <string name="date_picker_dialog_other_button_label">"Annet"</string>
+    <string name="date_picker_dialog_set">"Angi"</string>
+    <string name="date_picker_dialog_title">"Angi dato"</string>
+    <string name="date_time_picker_dialog_title">"Angi dato og klokkeslett"</string>
+    <string name="low_memory_error">"Kan ikke fullføre forrige handling på grunn av lite minne"</string>
+    <string name="media_player_error_button">"OK"</string>
+    <string name="media_player_error_text_invalid_progressive_playback">"Beklager, videoen er ikke gyldig for strømming på denne enheten."</string>
+    <string name="media_player_error_text_unknown">"Beklager, videoen kan ikke spilles av."</string>
+    <string name="media_player_error_title">"Kan ikke spille av videoen"</string>
+    <string name="media_player_loading_video">"Laster inn videoen ..."</string>
+    <string name="month_picker_dialog_title">"Angi måned"</string>
+    <string name="opening_file_error">"Kunne ikke åpne den valgte filen"</string>
+    <string name="password_generation_popup_content_description">"Viser forgrunnsvinduet for passordgenerering"</string>
+    <string name="profiler_error_toast">"Kunne ikke starte profileringsverktøyet"</string>
+    <string name="profiler_no_storage_toast">"Kan ikke starte profileringsverktøyet fordi ekstern lagring ikke er klar"</string>
+    <string name="profiler_started_toast">"Profileringsverktøyet har startet"</string>
+    <string name="profiler_stopped_toast">"Profileringsverktøyet er ferdig. Du finner resultatene i %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søk"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="time_picker_dialog_am">"AM"</string>
+    <string name="time_picker_dialog_hour_minute_separator">":"</string>
+    <string name="time_picker_dialog_minute_second_separator">":"</string>
+    <string name="time_picker_dialog_pm">"PM"</string>
+    <string name="time_picker_dialog_second_subsecond_separator">"."</string>
+    <string name="time_picker_dialog_title">"Angi tid"</string>
+    <string name="updating_chrome">"Oppdaterer Chrome ..."</string>
+    <string name="week_picker_dialog_title">"Angi uke"</string>
+</resources>
