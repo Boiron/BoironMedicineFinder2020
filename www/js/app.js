@@ -23,21 +23,21 @@ var example = angular.module('app', ['ionic.native','ionic', 'app.controllers', 
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
-    $ionicPlatform.on('deviceready', function(){
-      branchInit();
-    });
+    // $ionicPlatform.on('deviceready', function(){
+    //   branchInit();
+    // });
 
-    $ionicPlatform.on("resume", function() {
-      branchInit();
-    });
+    // $ionicPlatform.on("resume", function() {
+    //   branchInit();
+    // });
     
-    function branchInit() {
-      // Branch initialization
-      Branch.initSession().then(function(data) {
-        var link = data['$custom_data']
-        $location.url(link);
-      });
-    }
+    // function branchInit() {
+    //   // Branch initialization
+    //   Branch.initSession().then(function(data) {
+    //     var link = data['$custom_data']
+    //     $location.url(link);
+    //   });
+    // }
 
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
@@ -827,5 +827,3 @@ var showApp = angular.module('showApp', [])
   $scope.goCats = false;
   
 });
-
-
