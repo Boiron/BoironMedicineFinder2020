@@ -7,35 +7,41 @@
 // 'starter.controllers' is found in controllers.js
 
 
+var __state = 'not initialized';
+
 var example = angular.module('app', ['ionic.native','ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova', 'ngSpecialOffer', 'ngStorage'])
 
 .config(function($stateProvider, $ionicConfigProvider, $sceDelegateProvider){
-  $ionicConfigProvider.tabs.position('bottom'); 
+  $ionicConfigProvider.tabs.position('bottom');
  
   $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
   
 })
 
-
-
-
-.run(['$ionicPlatform', '$specialOffer', function($ionicPlatform, $specialOffer) {
+.run(['$ionicPlatform', '$specialOffer', '$ionicPopup', '$location', function($ionicPlatform, $specialOffer, $ionicPopup, $location) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     $ionicPlatform.on('deviceready', function(){
+      console.log('deviceReady');
+      __state = 'deviceready';
       branchInit();
     });
 
     $ionicPlatform.on("resume", function() {
+      console.log('resume');
+      __state = 'resume';
       branchInit();
     });
     
     function branchInit() {
       // Branch initialization
       Branch.initSession().then(function(data) {
-        var link = data['$custom_data']
-        $location.url(link);
+        if (data["$path"]) {
+          __state = data['$path'];
+          var url = data['$path'];
+          location.href = "/#/" + url;
+        }
       });
     }
 
@@ -657,7 +663,7 @@ var example = angular.module('app', ['ionic.native','ionic', 'app.controllers', 
 */
 .directive('disableSideMenuDrag', ['$ionicSideMenuDelegate', '$rootScope', function($ionicSideMenuDelegate, $rootScope) {
     return {
-        restrict: "A",  
+        restrict: "A",
         controller: ['$scope', '$element', '$attrs', function ($scope, $element, $attrs) {
 
             function stopDrag(){
@@ -707,24 +713,56 @@ var example = angular.module('app', ['ionic.native','ionic', 'app.controllers', 
 
 
 
-example.controller("ExampleController", function($scope, $cordovaSocialSharing) {
+example.controller("ExampleController", function($scope, $cordovaSocialSharing, $ionicPopup, $location) {
 // Message, title, image, and url
     $scope.shareAnywhere = function() {
-      navigator.screenshot.save(function(error,res){
-        if(error){
-        console.error(error);
-        }else{
-        console.log('ok',res.filePath);
-        
-        let url = document.URL;
-        let link = url.split('#/')
-        imageLink = res.filePath;
-        $cordovaSocialSharing.share("", "", 'file://'+imageLink, "https://medfinder.app.link/b6I6Zz06S0/?$custom_data="+link[1])
-        
+      let url = document.URL;
+      let link = url.split('#/')[1];
+
+      // only canonicalIdentifier is required
+      var properties = {
+        canonicalIdentifier: 'BoironMedicineFinder/pagelink',
+        canonicalUrl: '',
+        title: 'Boiron Medicine Finder',
+        contentDescription: '',
+        contentImageUrl: 'https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/89/68/a0/8968a0e1-169c-7b8d-f908-a66aa7ffc7b2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/1024x1024bb.png',
+      }
+
+      // create a branchUniversalObj variable to reference with other Branch methods
+      var branchUniversalObj = null
+      Branch.createBranchUniversalObject(properties).then(function (res) {
+        branchUniversalObj = res;
+        // optional fields
+        var analytics = {}
+
+        // optional fields
+        var properties = {
+          $desktop_url: 'https://www.boironusa.com',
+          $android_url: 'https://play.google.com/store/apps/details?id=com.boironusa.medfinder&hl=en_IN',
+          $ios_url: 'https://apps.apple.com/us/app/boiron-medicine-finder/id711449645',
+          $ipad_url: 'https://apps.apple.com/us/app/boiron-medicine-finder/id711449645',
+          $match_duration: 2000,
+          $path: link,
         }
-        },'jpg',50,'myScreenShot');
-        
-        }
+
+        branchUniversalObj.generateShortUrl(analytics, properties).then(function (link_res) {
+          var deeplink = link_res.url;
+          navigator.screenshot.save(function(error, imgres){
+            if ( error ) {
+              console.error(error);
+            } else {
+              console.log('ok',imgres.filePath);
+              imageLink = imgres.filePath;
+              $cordovaSocialSharing.share("", "", 'file://'+imageLink, deeplink);
+            }
+          },'jpg',50,'myScreenShot');
+        }).catch(function (err) {
+          alert('Error: ' + JSON.stringify(err))
+        })
+      }).catch(function (err) {
+        alert('Error: ' + JSON.stringify(err))
+      });
+    }
 });
 
 angular.module('starter', ['ionic'])
@@ -779,7 +817,7 @@ angular.module('starter', ['ionic'])
   });
 }])
 
-/* 
+/*
 .config(function($stateProvider, $urlRouterProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states

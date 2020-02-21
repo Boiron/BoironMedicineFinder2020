@@ -76,25 +76,72 @@
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
     <script>
       function sharePhoto() {
-       var imageLink;
-              console.log('Calling from CapturePhoto');
-              navigator.screenshot.save(function(error,res){
-              if(error){
-              console.error(error);
-              }else{
-              console.log('ok',res.filePath);
+        let url = document.URL;
+        let link = url.split('#/')[1];
+
+        // only canonicalIdentifier is required
+        var properties = {
+          canonicalIdentifier: 'BoironMedicineFinder/pagelink',
+          canonicalUrl: '',
+          title: 'Boiron Medicine Finder',
+          contentDescription: '',
+          contentImageUrl: 'https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/89/68/a0/8968a0e1-169c-7b8d-f908-a66aa7ffc7b2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/1024x1024bb.png',
+        }
+
+        // create a branchUniversalObj variable to reference with other Branch methods
+        var branchUniversalObj = null
+        Branch.createBranchUniversalObject(properties).then(function (res) {
+          branchUniversalObj = res;
+          // optional fields
+          var analytics = {}
+
+          // optional fields
+          var properties = {
+            $desktop_url: 'https://www.boironusa.com',
+            $android_url: 'https://play.google.com/store/apps/details?id=com.boironusa.medfinder&hl=en_IN',
+            $ios_url: 'https://apps.apple.com/us/app/boiron-medicine-finder/id711449645',
+            $ipad_url: 'https://apps.apple.com/us/app/boiron-medicine-finder/id711449645',
+            $match_duration: 2000,
+            $path: link,
+          }
+
+          branchUniversalObj.generateShortUrl(analytics, properties).then(function (link_res) {
+            var deeplink = link_res.url;
+            navigator.screenshot.save(function(error, imgres){
+              if ( error ) {
+                console.error(error);
+              } else {
+                console.log('ok',imgres.filePath);
+                imageLink = imgres.filePath;
+                window.plugins.socialsharing.share("", "", 'file://'+imageLink, deeplink);
+              }
+            },'jpg',50,'myScreenShot');
+          }).catch(function (err) {
+            alert('Error: ' + JSON.stringify(err))
+          })
+        }).catch(function (err) {
+          alert('Error: ' + JSON.stringify(err))
+        });
+
+       // var imageLink;
+       //        console.log('Calling from CapturePhoto');
+       //        navigator.screenshot.save(function(error,res){
+       //        if(error){
+       //        console.error(error);
+       //        }else{
+       //        console.log('ok',res.filePath);
               
           
-              //should be path/to/myScreenshot.jpg
-              //For android
-              imageLink = res.filePath;
-              window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
-             //For iOS
-             let url = document.URL;
-             let link = url.split('#/')
-             window.plugins.socialsharing.share(null, null, imageLink, "https://medfinder.app.link/b6I6Zz06S0/?$custom_data="+link[1]);
-       }
-       },'jpg',50,'myScreenShot');
+       //        //should be path/to/myScreenshot.jpg
+       //        //For android
+       //        imageLink = res.filePath;
+       //        window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
+       //       //For iOS
+       //       let url = document.URL;
+       //       let link = url.split('#/')
+       //       window.plugins.socialsharing.share(null, null, imageLink, "https://medfinder.app.link/b6I6Zz06S0/?$custom_data="+link[1]);
+       // }
+       // },'jpg',50,'myScreenShot');
       }
   </script>
 
