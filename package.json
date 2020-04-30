@@ -41,7 +41,7 @@
     "html2canvas": "^1.0.0-alpha.12",
     "ionic-native": "^2.9.0",
     "ionic-plugin-deeplinks": "^1.0.20",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "rxjs": "^6.3.3",
     "web": "0.0.2"
   },
